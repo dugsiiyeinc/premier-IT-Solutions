@@ -13,12 +13,14 @@
 <header class="header">
     <div class="container">
     <!-- starthumber -->
-    <div class="humber-contaier">
+    <div class="humber-contaier ">
 <div class="logo">
- 
+    PRE<span style="color: #086AD8;;">MIER</span> <br>
+    <!-- <P class="BOTTOM-TEXT-LOGO">IT SOLUTIONS</P> -->
 </div>
 <div class="humber">
-
+    <i class="fa-solid fa-bars" data-visible="true"></i>
+    <i class="fa-solid fa-xmark" data-visible="false"></i>
 </div>
     </div>
     <!-- End humber -->
@@ -59,7 +61,15 @@
 <!-- statr mobile-menu -->
 
 <div class="mobile-menu">
-
+<nav class=" mobile-menu">
+    <ul>
+        <li> <a href="#">Home</a></li> 
+        <li> <a href="#">About</a></li> 
+        <li> <a href="#">Services</a></li> 
+        <li> <a href="#">Teams</a></li> 
+        <li> <a href="#">Contact</a></li> 
+     </ul>
+</nav>
 </div>
 
 <!-- End mobile-menu -->
@@ -73,6 +83,33 @@
 </header>
 
     <!-- end header-->
+
+
+
+
+    <!-- javascript -->
+    <script>
+        const humber = document.querySelector(".humber")
+        const mobilemenu = document.querySelector(".mobile-menu")
+        const icons = document.querySelectorAll("i")
+
+        humber.addEventListener("click", function (event) {
+            const isvisible = mobilemenu.getAttribute('data-visible');
+
+            if (isvisible == "true") {
+                // qarin
+                mobilemenu.setAttribute('data-visible', "false")
+                icons[0].setAttribute('data-visible', "true")
+                icons[1].setAttribute('data-visible', "false")
+            }
+            else {
+                mobilemenu.setAttribute('data-visible', "true")
+                icons[0].setAttribute('data-visible', "false")
+                icons[1].setAttribute('data-visible', "true")
+            }
+        })
+    </script>
+    <!-- End javascript -->
    
 </body>
 </html>

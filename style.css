@@ -12,14 +12,15 @@ body{
 }
 
 .container{
-   max-width: 1300px;
-  margin-inline: auto;
+    width: min(90%, 1300px);
+    margin-inline: auto;
 }
 
 /* header */
 .header{
     background-color: #021f25;
     height: 30rem;
+    position: relative;
 }
 
 .disktop-menus{
@@ -113,10 +114,10 @@ cursor: pointer;
    
 }
 .getA-Quote .get:hover a{
-    color: #086AD8;
+    color: #001d23 ;
 }
 .getA-Quote .get:hover span{
-    color: #086AD8;
+    color: #001d23    ;
 }
 .search-Icon{
     border: 2px solid rgb(26, 52, 57);
@@ -137,4 +138,159 @@ cursor: pointer;
 
 }
 
+/* mobile menu */
+.humber-contaier{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+.mobile-menu{
+    padding:1.4rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+width: 100%;
+}
+.mobile-menu ul {
+    display: flex;
+    /* gap: 2rem; */
+    list-style: none;
+  
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.mobile-menu ul li a{
+    font-size: 1.4rem;
+    line-height: 1.625rem;
+    
+    font-weight: 500;
+    font-family: "Roboto, sans-serif";
+    color: white;
+    text-decoration: none;
+    padding: 38px 20px;
+    text-transform: capitalize;
+    transition:  background-color 0.5s;
+    
+    }
+/* end mobile menu */
+
 /* end header */
+
+
+
+
+
+/*  medium  media screen*/
+
+@media screen and (max-width:991px) {
+  /* mobile menus */
+  .humber-contaier{
+    display: flex;
+  
+  justify-content: space-between;
+  /* margin-top: 2rem; */
+  padding:2rem 1.2rem ;
+  }
+  .humber i{
+    color: #086AD8;
+    font-size: 1.3rem;
+    border: 1px solid #086AD8;
+    font-weight: 700;
+    padding: 10px 13px;
+    cursor: pointer;
+    /* width: 30px; */
+  }
+  .logo{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 800;
+    line-height: 2.2rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.mobile-menu ul{
+    padding-left: 1rem;
+    text-align: left;
+    width: 100%;
+    display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+font-size: 16px;
+font-weight: 400;
+height: 480px;
+left :0px;
+line-height: 26px;
+top: 0;
+position: absolute;
+
+}
+
+.mobile-menu ul li{
+    width: 100%;
+    /* border: 1px solid white; */
+    padding-bottom: 12px;
+padding-left: 45.0938px;
+padding-right: 45.0938px;
+padding-top: 12px;
+background-color: rgba(0, 0, 0, 0);
+border-top-color :rgba(255, 255, 255, 0.5);
+border-top-style :solid;
+border-top-width: 0.666667px;
+box-sizing :content-box;
+}
+.mobile-menu ul li a{
+    /* font-size: 1rem; */
+    line-height: 26px;
+    font-size: 1rem;
+   text-transform: uppercase;
+font-weight :500;
+color: rgb(255, 255, 255);
+}
+.mobile-menu ul li a:hover{
+    color: #086AD8;
+}
+.mobile-menu{
+  position: absolute;
+  width: 100%;
+  transition: transform 0.7s ease-in-out;
+transform: translateY(-100%);
+
+
+}
+.mobile-menu[data-visible="false"]{
+    transform: translateY(0%);
+    
+}
+
+.humber i[data-visible="false"]{
+    display: none;
+}
+
+.humber i[data-visible="true"]{
+    display: block;
+}
+
+  /*end  mobile menus */
+
+
+  /* desktop-menus */
+  .disktop-menus{
+    display: none;
+  }
+  .mobile-menu{
+    display: flex;
+  
+}
+
+  /* end desktop-menus */
+}
+/* End tablates  media screen*/
