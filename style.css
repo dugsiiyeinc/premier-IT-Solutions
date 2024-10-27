@@ -59,10 +59,11 @@ width: 100%;
 }
 
 .disktop-menus ul li a{
-font-size: 1.2rem;
+font-size: 1.4rem;
 line-height: 1.625rem;
+
 font-weight: 500;
-font-family: "Cerebri Sans";
+font-family: "Roboto, sans-serif";
 color: white;
 text-decoration: none;
 padding: 38px 20px;
@@ -87,6 +88,7 @@ transition:  background-color 0.5s;
   margin-right: 1.25rem;
 color: white;
 transition:   background-color 0.5s ease-in-out;
+cursor: pointer;
 }
 .getA-Quote .get span{
     color: white;
@@ -113,6 +115,9 @@ transition:   background-color 0.5s ease-in-out;
 .getA-Quote .get:hover a{
     color: #086AD8;
 }
+.getA-Quote .get:hover span{
+    color: #086AD8;
+}
 .search-Icon{
     border: 2px solid rgb(26, 52, 57);
     font-weight: 400;
@@ -120,6 +125,7 @@ transition:   background-color 0.5s ease-in-out;
     padding:  1.2rem 1.4rem;
     border-radius: 2px;
     transition: background-color 0.5s;
+    cursor: pointer;
    
 }
 .search-Icon i{
