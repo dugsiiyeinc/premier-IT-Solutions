@@ -21,6 +21,7 @@ body{
     background-color: #021f25;
     height: 30rem;
     position: relative;
+
 }
 
 .disktop-menus{
@@ -142,16 +143,14 @@ cursor: pointer;
 .humber-contaier{
     display: none;
 }
+
 .mobile-menu{
+    /* padding:1.4rem 0rem; */
     display: none;
-}
-.mobile-menu{
-    padding:1.4rem 0rem;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-width: 100%;
+
 }
 .mobile-menu ul {
     display: flex;
@@ -181,7 +180,28 @@ width: 100%;
 
 /* end header */
 
+/* statr banner */
+.banner{
+    position: absolute;
+    top: 15%;
 
+left: 5%;
+right: 5%;
+    /* z-index: 99; */
+}
+.banner{
+    background: url('https://wphix.com/template/techbuzz-prv/techbuzz/assets/images/banner/banner-slide-1.jpeg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+  background-size: cover;
+}
+.container-banner img{
+    width: 100%;
+  
+  
+}
+/* end statr banner */
 
 
 
@@ -194,7 +214,7 @@ width: 100%;
   
   justify-content: space-between;
   /* margin-top: 2rem; */
-  padding:2rem 1.2rem ;
+  padding:2rem 0rem ;
   }
   .humber i{
     color: #086AD8;
@@ -215,9 +235,13 @@ width: 100%;
     cursor: pointer;
 }
 
-
+.mobile-menu{
+   
+    width: 100%;
+}
 
 .mobile-menu ul{
+   
     padding-left: 1rem;
     text-align: left;
     width: 100%;
@@ -235,7 +259,7 @@ position: absolute;
 }
 
 .mobile-menu ul li{
-    width: 100%;
+  width: 100%;
     /* border: 1px solid white; */
     padding-bottom: 12px;
 padding-left: 45.0938px;
@@ -245,7 +269,7 @@ background-color: rgba(0, 0, 0, 0);
 border-top-color :rgba(255, 255, 255, 0.5);
 border-top-style :solid;
 border-top-width: 0.666667px;
-box-sizing :content-box;
+
 }
 .mobile-menu ul li a{
     /* font-size: 1rem; */
@@ -260,9 +284,13 @@ color: rgb(255, 255, 255);
 }
 .mobile-menu{
   position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  
   width: 100%;
   transition: transform 0.7s ease-in-out;
-transform: translateY(-100%);
+transform: translateY(100%);
 
 
 }
