@@ -142,12 +142,10 @@ cursor: pointer;
 .humber-contaier{
     display: none;
 }
-.mobile-menu{
-    display: none;
-}
+
 .mobile-menu{
     padding:1.4rem 0rem;
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     text-align: center;
