@@ -21,6 +21,7 @@ body{
     background-color: #021f25;
     height: 30rem;
     position: relative;
+
 }
 
 .disktop-menus{
@@ -79,6 +80,7 @@ transition:  background-color 0.5s;
 
 .getA-Quote{
     display: flex;
+    align-items: center;
   
 }
 .getA-Quote .get{
@@ -149,7 +151,7 @@ cursor: pointer;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-width: 100%;
+
 }
 .mobile-menu ul {
     display: flex;
@@ -179,7 +181,171 @@ width: 100%;
 
 /* end header */
 
+/* statr banner */
 
+.container-banner{
+    background: linear-gradient(rgba(1, 44, 58, 0.927),rgba(1, 53, 61, 0.591)), url('https://wphix.com/template/techbuzz-prv/techbuzz/assets/images/banner/banner-slide-1.jpeg');
+ 
+  height: 50rem;
+    background-position: bottom;
+  background-size: cover;
+  position: absolute;
+  top: 15%;
+
+left: 5%;
+right: 5%;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25%;
+    color: #ffffff;
+}
+
+.banner-text h5{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Cerebri Sans"
+
+}
+
+.banner-text h2{
+    font-family: "Cerebri Sans";
+    font-size: 6.25rem;
+    font-weight: 600;
+
+}
+
+
+
+.bottons a{
+    display: inline-block;
+    padding: 0px 2rem;
+    color: #ffffff;
+    background: #086AD8;
+    font-weight: 700;
+    border: 2px solid transparent;
+    font-family: "Cerebri Sans";
+    height: 60px;
+    line-height: 56px;
+    text-decoration: none;
+    transition: background-color 0.4s ease-in-out;
+}
+.bottons .Learn-btn{
+    background: transparent;
+    color: white;
+    position: relative;
+    border: 2px solid #6b7071;
+    height: 3.8rem;
+    line-height: 56px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.bottons .getIn-Touch:hover {
+    background-color: #001d23;
+}
+.bottons .Learn-btn:hover{
+    background-color: #086AD8;
+    border: none;
+}
+.bottons{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+
+.Appointment{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 6rem 2rem;
+   min-height:40vh;
+    background-color: #086AD8;
+top: 100%;
+}
+
+.appointment-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.appointment-container .title{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: "Cerebri Sans"
+}
+.appointment-container  .input{
+  
+}
+.appointment-container  input{
+    border-radius: 0px;
+
+padding: 28px 49px;
+    background: #ffffff;
+    border: none;
+    color: #001D23;
+    /* padding-left: 55px; */
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    font-weight: 500;
+    outline: none;
+}
+.appointment-container  input::placeholder{
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+}
+.select{
+    border-radius: 0px;
+    padding: 28px 40px;
+    background: #ffffff;
+    border: none;
+    color: #001D23;
+    padding-left: 55px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    font-weight: 500;  
+    font-size: 1rem;
+    outline: none;
+}
+
+.appointment-container .btn {
+    border-radius: 0px;
+    padding: 28px 40px;
+    background: #004189;
+    ;
+    border: none;
+    color: #001D23;
+    padding-left: 55px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+}
+.appointment-container .btn button{
+    border-radius: 0px;
+    font-size: 1rem;
+background-color: #004189;
+;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    font-weight: 500;
+}
+
+/* end statr banner */
 
 
 
@@ -192,7 +358,7 @@ width: 100%;
   
   justify-content: space-between;
   /* margin-top: 2rem; */
-  padding:2rem 1.2rem ;
+  padding:2rem 0rem ;
   }
   .humber i{
     color: #086AD8;
@@ -213,9 +379,13 @@ width: 100%;
     cursor: pointer;
 }
 
-
+.mobile-menu{
+   
+    width: 100%;
+}
 
 .mobile-menu ul{
+   
     padding-left: 1rem;
     text-align: left;
     width: 100%;
@@ -233,7 +403,7 @@ position: absolute;
 }
 
 .mobile-menu ul li{
-    width: 100%;
+  width: 100%;
     /* border: 1px solid white; */
     padding-bottom: 12px;
 padding-left: 45.0938px;
@@ -243,7 +413,7 @@ background-color: rgba(0, 0, 0, 0);
 border-top-color :rgba(255, 255, 255, 0.5);
 border-top-style :solid;
 border-top-width: 0.666667px;
-box-sizing :content-box;
+
 }
 .mobile-menu ul li a{
     /* font-size: 1rem; */
@@ -258,9 +428,13 @@ color: rgb(255, 255, 255);
 }
 .mobile-menu{
   position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  
   width: 100%;
   transition: transform 0.7s ease-in-out;
-transform: translateY(-100%);
+transform: translateY(100%);
 
 
 }
@@ -288,7 +462,78 @@ transform: translateY(-100%);
     display: flex;
   
 }
-
   /* end desktop-menus */
+
+/* start banner */
+.Appointment{
+    min-height: 67%;
+}
+.appointment-container{
+ 
+grid-template-columns: 1fr ;
+   
+}
+.title{
+    text-align: center;
+}
+
+.appointment-container .btn{
+    width: 50%;
+    margin-inline: auto;
+}
+
+/*end start banner */
+
+
 }
 /* End tablates  media screen*/
+
+
+/* mobile screens */
+@media screen and (max-width:767px){
+    /* banner */
+    .container-banner{
+        height: 30rem;
+        margin-top: 1rem;
+    }
+    .appointment-container .btn{
+        width:100%;
+        margin-inline: auto;
+    }
+    .Appointment{
+        min-height: 67%;
+    }
+    .banner-text h2{
+        padding: 1rem 0rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: "Cerebri Sans"
+    
+    }
+    /* banner */
+}
+@media screen and (max-width:481px){
+    /* start banner */
+    .Appointment{
+        min-height: 70vh;
+    }
+    .banner-text h2{
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: "Cerebri Sans"
+    
+    }
+
+    .banner-text  .bottons{
+       flex-direction: column;
+    }
+    .appointment-container .btn{
+        width:100%;
+        margin-inline: auto;
+    }
+    /* end banner */
+  
+}
+/* endmobile screens */
