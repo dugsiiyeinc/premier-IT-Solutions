@@ -144,12 +144,10 @@ cursor: pointer;
 .humber-contaier{
     display: none;
 }
-.mobile-menu{
-    display: none;
-}
+
 .mobile-menu{
     padding:1.4rem 0rem;
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -183,7 +181,171 @@ cursor: pointer;
 
 /* end header */
 
+/* statr banner */
 
+.container-banner{
+    background: linear-gradient(rgba(1, 44, 58, 0.927),rgba(1, 53, 61, 0.591)), url('https://wphix.com/template/techbuzz-prv/techbuzz/assets/images/banner/banner-slide-1.jpeg');
+ 
+  height: 50rem;
+    background-position: bottom;
+  background-size: cover;
+  position: absolute;
+  top: 15%;
+
+left: 5%;
+right: 5%;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25%;
+    color: #ffffff;
+}
+
+.banner-text h5{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Cerebri Sans"
+
+}
+
+.banner-text h2{
+    font-family: "Cerebri Sans";
+    font-size: 6.25rem;
+    font-weight: 600;
+
+}
+
+
+
+.bottons a{
+    display: inline-block;
+    padding: 0px 2rem;
+    color: #ffffff;
+    background: #086AD8;
+    font-weight: 700;
+    border: 2px solid transparent;
+    font-family: "Cerebri Sans";
+    height: 60px;
+    line-height: 56px;
+    text-decoration: none;
+    transition: background-color 0.4s ease-in-out;
+}
+.bottons .Learn-btn{
+    background: transparent;
+    color: white;
+    position: relative;
+    border: 2px solid #6b7071;
+    height: 3.8rem;
+    line-height: 56px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.bottons .getIn-Touch:hover {
+    background-color: #001d23;
+}
+.bottons .Learn-btn:hover{
+    background-color: #086AD8;
+    border: none;
+}
+.bottons{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+
+.Appointment{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 6rem 2rem;
+   min-height:40vh;
+    background-color: #086AD8;
+top: 100%;
+}
+
+.appointment-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.appointment-container .title{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: "Cerebri Sans"
+}
+.appointment-container  .input{
+  
+}
+.appointment-container  input{
+    border-radius: 0px;
+
+padding: 28px 49px;
+    background: #ffffff;
+    border: none;
+    color: #001D23;
+    /* padding-left: 55px; */
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    font-weight: 500;
+    outline: none;
+}
+.appointment-container  input::placeholder{
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+}
+.select{
+    border-radius: 0px;
+    padding: 28px 40px;
+    background: #ffffff;
+    border: none;
+    color: #001D23;
+    padding-left: 55px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    font-weight: 500;  
+    font-size: 1rem;
+    outline: none;
+}
+
+.appointment-container .btn {
+    border-radius: 0px;
+    padding: 28px 40px;
+    background: #004189;
+    ;
+    border: none;
+    color: #001D23;
+    padding-left: 55px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+}
+.appointment-container .btn button{
+    border-radius: 0px;
+    font-size: 1rem;
+background-color: #004189;
+;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    font-weight: 500;
+}
+
+/* end statr banner */
 
 
 
