@@ -123,11 +123,12 @@ label:hover {
 /* header */
 
 .container{
-    width: min(90%, 1300px);
+    width:1110px;
     margin-inline: auto;
 }
 
 .header{
+   
     background-color: #021f25;
     height: 30rem;
     position: relative;

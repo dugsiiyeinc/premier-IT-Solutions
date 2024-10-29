@@ -240,7 +240,7 @@ right: 5%;
     color: white;
     position: relative;
     border: 2px solid #6b7071;
-    height: 3.8rem;
+    height: 4rem;
     line-height: 56px;
     text-decoration: none;
     box-sizing: border-box;
@@ -256,6 +256,8 @@ right: 5%;
     margin-top: 1rem;
     display: flex;
     gap: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 
 
