@@ -8,7 +8,12 @@
 }
 
 body{
-    font-family: "Roboto Serif", serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+   
+    font-weight: 400;
+  
+   
 }
 
 .container{
@@ -346,11 +351,122 @@ background-color: #004189;
     width: 100%;
     font-weight: 500;
 }
-
+.Banner{
+    height: 110vh;
+}
 /* end statr banner */
 
+/* service */
+.service-section {
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 6.25rem;
+    background: #F8F8F8;
+    margin-top: 3rem;
+}
+.serviceText-container{
+    text-align: center;
+}
+.serviceText-container h5{
+    font-family: "Cerebri Sans";
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+.serviceText-container h5::before{
+    content: "//";
+    padding-right: 1rem;
+    color: #086AD8;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.serviceText-container h5::after{
+    content: "//";
+    padding-left: 1rem;
+    color: #086AD8;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.serviceText-container h2{
+    font-family: "Cerebri Sans";
+font-size: 3.125rem;
+font-weight: 500;
+line-height: 3.75rem;
+color: #086AD8;
+margin-top: 2rem;
+}
+
+.servise-boxs{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.boxs{
+    margin-top: 4rem;
+    min-width: 300px;
+    width: calc(25% - 20px);
+background-color: white;
+   text-align: center;
+   padding: 2rem ;
+
+border-radius: 0.5rem;
+box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+transition:  transform 0.4s ease-in-out;
+}
 
 
+.boxs:hover{
+  
+  
+   transform: translateY(-20px);
+   box-shadow: 0px  8px 10px #91c4ff;
+}
+.box-icon img{
+    width: 4rem;
+}
+.boxs h2{
+    padding-top: .8rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+.boxs p{
+    font-size: 1rem;
+    color: #6b7071;
+    line-height: 1.5rem;
+    padding: .8rem 0rem;
+
+}
+.boxs button{
+    padding: 0.5rem 2rem;
+    border: none;
+    background-color: #086AD8;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border-radius: 0.5rem;
+    padding-top: 0.7rem;
+    transition:  background-color 0.4s ease-in-out ;
+}
+.boxs button:hover{
+    background-color: #001d23;
+}
+/* End service */
+
+/* why choose Us */
+
+/* large screen */
+@media screen and (max-width:1240px){
+    .servise-boxs{
+        grid-template-columns: repeat(3, 1fr);
+           width: calc(33.33% - 20px);
+        
+       gap: 2rem;
+}
+}
+/* end large screen */
 /*  medium  media screen*/
 
 @media screen and (max-width:991px) {
@@ -486,6 +602,29 @@ grid-template-columns: 1fr ;
 
 /*end start banner */
 
+/* start service section */
+.service-section{
+    margin-top: 2rem;
+}
+
+.servise-boxs{
+ grid-template-columns: repeat(2, 1fr);
+    width: calc(50%- 20px);
+ 
+gap: 2rem;
+
+  
+}
+.serviceText-container h2{
+    font-family: "Cerebri Sans";
+font-size: 2rem;
+font-weight: 500;
+line-height: 2.7rem;
+color: #086AD8;
+margin-top: 2rem;
+}
+
+/* End service section */
 
 }
 /* End tablates  media screen*/
@@ -503,7 +642,7 @@ grid-template-columns: 1fr ;
         margin-inline: auto;
     }
     .Appointment{
-        min-height: 67%;
+        min-height: 70vh;
     }
     .banner-text h2{
         padding: 1rem 0rem;
@@ -514,11 +653,21 @@ grid-template-columns: 1fr ;
     
     }
     /* banner */
+    /* service */
+    .servise-boxs{
+        grid-template-columns: 1fr 1fr;
+        width: calc(50% - 20px) ;   
+        min-width: 200px;   
+margin-inline: auto;
+}
+    /*End  service */
+
 }
 @media screen and (max-width:481px){
     /* start banner */
     .Appointment{
-        min-height: 70vh;
+
+     min-height:70vh;
     }
     .banner-text h2{
         font-size: 2rem;
@@ -535,7 +684,29 @@ grid-template-columns: 1fr ;
         width:100%;
         margin-inline: auto;
     }
+
     /* end banner */
+    /* services */
+    .servise-boxs{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 50%;  
+     
+        margin-inline: auto;    
+
+}
+.serviceText-container h2{
+    font-family: "Cerebri Sans";
+font-size: 1.5rem;
+font-weight: 500;
+line-height: 2.5rem;
+color: #086AD8;
+margin-top: 2rem;
+}
+.service-section{
+    margin-top: 2rem;
+}
+    /*End  services */
   
 }
 /* endmobile screens */
