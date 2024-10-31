@@ -291,9 +291,7 @@ top: 100%;
     line-height: 40px;
     font-family: "Cerebri Sans"
 }
-.appointment-container  .input{
-  
-}
+
 .appointment-container  input{
     border-radius: 0px;
 
@@ -466,10 +464,7 @@ transition:  transform 0.4s ease-in-out;
     grid-template-columns: repeat(2,1fr);
   
 }
-.why-chooseUs{
 
-  
-}
 .why-chooseUs img{
     width: 100%;
     height: 100%;
@@ -545,7 +540,110 @@ margin-inline: auto; */
 width: 5rem;
 }
 
-/* why choose Us */
+/* end why choose Us */
+
+
+
+/* call action section */
+
+.call-action-section {
+position: relative;
+    background:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://wphix.com/template/techbuzz-prv/techbuzz/assets/images/bg/cta-bg-2.jpeg");
+/* height: 100%;  */
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top:4.7rem;
+padding-bottom:4.7rem;
+  margin-top: 4rem;
+}
+
+
+.call-action_text{
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 1200px;
+margin-inline: auto;
+ 
+   
+}
+.call-action_text .texts h3{
+    font-size: 50px;
+    letter-spacing: -2px;
+    line-height: 60px;
+  width: 80%;
+}
+.call-action_text .texts p{
+ 
+
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.call-action_text .texts span{
+    color: #086AD8;
+    font-size: 1rem;
+    padding-right: 1rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+
+}
+.btn{
+
+        display: flex;
+        gap: 10px;
+        background-color: #086AD8;
+      padding:  1.2rem 1.8rem;
+      margin-right: 1.25rem;
+    color: white;
+    transition:   background-color 0.5s ease-in-out;
+    cursor: pointer;
+    }
+    .btn a{
+        font-size:1.1rem;
+        font-weight :700;
+        color: white;
+        /* font-family: "Roboto, sans-serif"; */
+        text-decoration: none;
+        left: 54px;
+        
+    }
+    .btn:hover{
+        background-color: #001D23;
+    }
+
+
+/* end call action section */
+
+/* how e works */
+.how-we-works-boxs-grid{
+    display: grid;
+    align-items: center;
+  text-align: center;
+ grid-template-columns: repeat(4,1fr);
+ width: 100%;
+}
+.number-box span{
+    background-color: #086AD8;
+    padding: 1rem;
+    border-radius: 50%;
+  
+
+}
+.number-box{
+    padding-bottom: 1rem;
+}
+.card-desgn{
+    background-color: #086AD8;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 250px;
+}
+/* End how e works */
+
 
 /* large screen */
 @media screen and (max-width:1240px){
@@ -559,8 +657,6 @@ width: 5rem;
 
 /* why-schooseUs */
 .why-chooseUsGrid{
-   
- 
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -570,6 +666,28 @@ width: 5rem;
 }
 
 /* ENDwhy-schooseUs */
+
+/* call action */
+.call-action-section{
+  
+        margin-top: 15rem;
+ 
+  
+}
+.call-action_text{
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    padding-left: 4rem;
+}
+.call-action_text .texts h3{
+    font-size: 3.125rem;
+    letter-spacing: -2px;
+    line-height:3.75;
+width: 100%;
+}
+/* end call action */
+
 }
 /* end large screen */
 /*  medium  media screen*/
@@ -731,12 +849,20 @@ margin-top: 2rem;
 
 /* End service section */
 
+/* call action  */
+.call-action_text .texts h3{
+    font-size: 3.125rem;
+    letter-spacing: -2px;
+    line-height:3.75rem;
+width: 100%;
+}
+/* end call action  */
 }
 /* End tablates  media screen*/
 
 
 /* mobile screens */
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
     /* banner */
     .container-banner{
         height: 30rem;
@@ -776,6 +902,12 @@ margin-inline: auto;
         font-size: 2.5rem;
     }
     /* End whychooseUs */
+
+     /* call action */
+  .call-action-section{
+    margin-top: 30rem;
+}
+  /* End call action */
 
 }
 @media screen and (max-width:676px){
@@ -842,6 +974,30 @@ margin-top: 2rem;
         font-size: 1.7rem;
     }
     /*End why-chooseUs */
-  
+  /* call action */
+  .call-action-section{
+    margin-top: 40rem;
+}
+.call-action_text .texts h3{
+    font-size: 2rem;
+   padding-bottom: 1rem;
+    line-height: 2.5rem;
+width: 100%;
+}
+.call-action_text{
+    padding-left: 2rem;
+}
+  /* End call action */
+
+
+}
+
+
+@media screen and (max-width:390px){
+    /* call action */
+    .call-action-section{
+        margin-top: 50rem;
+    }
+    /*end  call action */
 }
 /* endmobile screens */
