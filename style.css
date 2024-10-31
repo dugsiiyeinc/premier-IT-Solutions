@@ -400,8 +400,10 @@ margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
+
+  
 }
 
 .boxs{
@@ -454,6 +456,94 @@ transition:  transform 0.4s ease-in-out;
     background-color: #001d23;
 }
 /* End service */
+.why-chooseUs-container{
+    height: 100vh;
+    margin-top: 4rem;
+}
+.why-chooseUsGrid{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+}
+.why-chooseUs{
+
+  
+}
+.why-chooseUs img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  
+
+/* background: url('https://plus.unsplash.com/premium_photo-1661690063036-0b662d911241?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+/* background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+margin-inline: auto; */
+
+}
+/*     */
+.wyh-choose-text-container h2{
+    font-size: 3.125rem;
+    color: #086AD8;
+    line-height: 3.2rem;
+    padding: 1rem 2rem;
+   
+}
+.wyh-choose-text-container p{
+    font-size: 1.2rem;
+    color: #6b7071;
+    line-height: 2rem;
+    padding: 1rem 2rem;
+}
+.wyh-choose-text-container h2::before{
+    content: "_____";
+    padding-right: 1rem;
+    color: #004189;
+}
+.why-chooseUs-services-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 3rem 1.5rem;
+  
+   
+}
+.why-service{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+    border-right: 2px solid #086AD8;
+    padding-right: 1rem;
+    margin-bottom: 3rem;
+    transition:   transform 2s ease-in-out;
+}
+.why-service:hover .icons{
+    transform: translateY(-15px);
+}
+.text{
+    text-align: center;
+}
+.text h3{
+    text-transform: capitalize;
+    color: #333333;
+    font-weight: 500;
+}
+.text .subtitle{
+    font-size: 1rem;
+    color: #6b7071;
+    line-height: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.why-service .icons img{
+width: 5rem;
+}
 
 /* why choose Us */
 
@@ -465,6 +555,21 @@ transition:  transform 0.4s ease-in-out;
         
        gap: 2rem;
 }
+
+
+/* why-schooseUs */
+.why-chooseUsGrid{
+   
+ 
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+.wyh-choose-text-container h2{
+    text-align: center;
+}
+
+/* ENDwhy-schooseUs */
 }
 /* end large screen */
 /*  medium  media screen*/
@@ -662,6 +767,26 @@ margin-inline: auto;
 }
     /*End  service */
 
+    /* whychooseUs */
+    .why-chooseUs-services-container{
+        grid-template-columns: 1fr;
+    }
+    .wyh-choose-text-container h2{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    /* End whychooseUs */
+
+}
+@media screen and (max-width:676px){
+    .servise-boxs{
+        grid-template-columns: 1fr ;
+     width: 50%;  
+     margin-inline: auto;
+        min-width: 200px;   
+      
+
+}
 }
 @media screen and (max-width:481px){
     /* start banner */
@@ -707,6 +832,16 @@ margin-top: 2rem;
     margin-top: 2rem;
 }
     /*End  services */
+
+    /* why-chooseUs */
+    .why-chooseUs-services-container{
+        grid-template-columns: 1fr;
+    }
+    .wyh-choose-text-container h2{
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    /*End why-chooseUs */
   
 }
 /* endmobile screens */
