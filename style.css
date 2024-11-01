@@ -619,28 +619,92 @@ margin-inline: auto;
 /* end call action section */
 
 /* how e works */
+
+.how-we-works {
+margin-top: 5rem;
+height: 90vh;
+}
+
+.how-we-work-text{
+    text-align: center;
+}
+.how-we-work-text .title h4{
+    font-size: 1rem;
+    color: #086AD8;
+    font-weight: 600;
+    list-style: 1.2rem;
+    padding-bottom: 1rem;
+}
+.how-we-work-text .title h4 span{
+    padding: 0rem 0.5rem;
+}
+.how-we-work-text  h3 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 3.7rem;
+}
+.how-we-work-text  h3 span{
+    color: #086AD8;
+}
 .how-we-works-boxs-grid{
     display: grid;
     align-items: center;
   text-align: center;
+  justify-content: center;
  grid-template-columns: repeat(4,1fr);
- width: 100%;
+
+ margin-top: 5rem;
 }
 .number-box span{
     background-color: #086AD8;
-    padding: 1rem;
+    padding: 1.3rem;
     border-radius: 50%;
+  
+  
+ 
+}
+
+
+.number-box{
+  margin-right: 2rem;
+    padding-bottom: 1.5rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
   
 
 }
-.number-box{
+.card-desgn{
+ 
+    padding: 3rem 1rem;
+    margin-top: 1rem;
+    min-width: calc(25% - 20px);
+    width: 250px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease-in-out;
+}
+.card-desgn:hover{
+    background-color: #086AD8;
+    color: white;
+}
+.card-desgn:hover p{
+    color: white;
+}
+ .card-boxs:hover .number-box{
+    transform: translateY(-10px);
+   
+}
+.card-boxs:hover .number-box span{
+    background-color: #001D23;
+}
+.card-desgn h3{
+    font-size: 1.5rem;
     padding-bottom: 1rem;
 }
-.card-desgn{
-    background-color: #086AD8;
-    padding: 1rem;
-    margin-top: 1rem;
-    width: 250px;
+.card-desgn p{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    color: #333333;
 }
 /* End how e works */
 
@@ -687,6 +751,14 @@ margin-inline: auto;
 width: 100%;
 }
 /* end call action */
+
+
+/* how we work */
+.how-we-works-boxs-grid{
+    grid-template-columns: repeat(3, 1fr);
+row-gap: 4rem;
+}
+/*End  how we work */
 
 }
 /* end large screen */
@@ -850,6 +922,10 @@ margin-top: 2rem;
 /* End service section */
 
 /* call action  */
+
+.call-action-section{
+    margin-top: 10rem;
+}
 .call-action_text .texts h3{
     font-size: 3.125rem;
     letter-spacing: -2px;
@@ -857,6 +933,19 @@ margin-top: 2rem;
 width: 100%;
 }
 /* end call action  */
+
+
+.how-we-works-boxs-grid{
+    grid-template-columns: repeat(2, 1fr);
+  
+  width: 50%;
+    gap: 4rem;
+row-gap: 4rem;
+}
+.number-box{
+margin-right: 1rem;
+}
+/*End  how we work */
 }
 /* End tablates  media screen*/
 
@@ -905,20 +994,68 @@ margin-inline: auto;
 
      /* call action */
   .call-action-section{
-    margin-top: 30rem;
+    margin-top: 40rem;
 }
   /* End call action */
+  /* how we work */
+.how-we-works-boxs-grid{
+    grid-template-columns: repeat(2, 1fr);
+    min-width: calc(50% - 20px); 
+    margin-inline: auto;
+    gap: 4rem;
+row-gap: 4rem;
+}
+.number-box{
+margin-right: 1rem;
+}
+/*End  how we work */
 
 }
 @media screen and (max-width:676px){
     .servise-boxs{
         grid-template-columns: 1fr ;
-     width: 50%;  
+  
      margin-inline: auto;
         min-width: 200px;   
       
 
 }
+  /* how we work */
+  .how-we-works-boxs-grid{
+    grid-template-columns: repeat(2, 1fr);
+    min-width: calc(50% - 20px); 
+    margin-inline: auto;
+    gap: 4rem;
+row-gap: 4rem;
+
+}
+.number-box{
+margin-right: 1rem;
+}
+/*End  how we work */
+}
+
+@media screen and (max-width:568px){
+     /* how we work */
+  .how-we-works-boxs-grid{
+    grid-template-columns: repeat(1, 1fr);
+
+margin: auto;
+    gap: 4rem;
+row-gap: 4rem;
+
+}
+.number-box{
+margin-right: 1rem;
+}
+.how-we-work-text  h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+    padding-bottom: 3rem;
+}
+/*End  how we work */
+
 }
 @media screen and (max-width:481px){
     /* start banner */
