@@ -193,7 +193,7 @@ label:hover {
         font-size: 14px;
     }
 
-
+    /* end respondive for top header */
 
     
     .img-bacground {
@@ -207,6 +207,8 @@ label:hover {
         padding: 80px 20px;
         text-align: center;
 }
+
+/* end respondive for hero section */
 
 
 }
