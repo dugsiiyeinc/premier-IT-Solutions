@@ -128,7 +128,38 @@ label:hover {
     color: #086AD8;
 } 
 
+
+
+
+
 /* end top header */
+
+
+
+
+.hero {
+    margin-top: 20px;
+}
+
+.img-bacground {
+    height: 455.188px;
+    background: linear-gradient(rgba(27, 28, 28, 0.5), rgba(20, 19, 19, 0.5)), url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/04/64/715624af3fe5286.jpg") center /cover no-repeat;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.informtaion h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 160px 80px;
+
+}
+
+
+
+/* end hero section  */
 
 
 /* Responsive Design for Mobile */
@@ -161,6 +192,23 @@ label:hover {
     .info, a {
         font-size: 14px;
     }
+
+
+
+    
+    .img-bacground {
+        height: 300px; 
+        padding: 20px;
+        width: 100%;
+    }
+
+    .informtaion h1 {
+        font-size: 2rem; 
+        padding: 80px 20px;
+        text-align: center;
+}
+
+
 }
 
 @media (max-width: 480px) {
