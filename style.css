@@ -159,14 +159,12 @@ body {
     display: none;
 }
 
-.mobile-menu {
-    padding: 1.4rem 0rem;
-    display: none;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+.mobile-menus{
+display: none;
 
+   
 }
+
 
 .mobile-menu ul {
     display: flex;
@@ -1184,6 +1182,9 @@ margin-inline: auto; */
         /* margin-top: 2rem; */
         padding: 2rem 0rem;
     }
+    .humber-contaier  .humber{
+        z-index: 999;
+    }
 
     .humber i {
         color: #086AD8;
@@ -1193,6 +1194,7 @@ margin-inline: auto; */
         padding: 10px 13px;
         cursor: pointer;
         /* width: 30px; */
+      
     }
 
     .logo {
@@ -1203,24 +1205,29 @@ margin-inline: auto; */
         letter-spacing: 0.5rem;
         text-align: center;
         cursor: pointer;
+        z-index: 999;
     }
+ 
 
-    .mobile-menu {
-
-        width: 100%;
+    .mobile-menus {
+        display: flex;
+        flex-direction: column;
+        
+        z-index: 111;
     }
-
+   
+   
     .mobile-menu ul {
-
+      
         padding-left: 1rem;
         text-align: left;
         width: 100%;
         display: flex;
         flex-direction: column;
-        font-family: Roboto, sans-serif;
+      background-color: #001D23;
         font-size: 16px;
         font-weight: 400;
-        height: 480px;
+        height: 30rem;
         left: 0px;
         line-height: 26px;
         top: 0;
@@ -1235,10 +1242,11 @@ margin-inline: auto; */
         padding-left: 45.0938px;
         padding-right: 45.0938px;
         padding-top: 12px;
-        background-color: rgba(0, 0, 0, 0);
+      
         border-top-color: rgba(255, 255, 255, 0.5);
         border-top-style: solid;
         border-top-width: 0.666667px;
+        transition:  transform 3s ease-in-out;
 
     }
 
@@ -1249,27 +1257,31 @@ margin-inline: auto; */
         text-transform: uppercase;
         font-weight: 500;
         color: rgb(255, 255, 255);
+        
     }
 
     .mobile-menu ul li a:hover {
         color: #086AD8;
     }
 
-    .mobile-menu {
+  
+    .mobile-menus{
         position: absolute;
         left: 0;
         right: 0;
         top: 0;
+   
+width: 100%;
 
-        width: 100%;
-        transition: transform 0.7s ease-in-out;
-        transform: translateY(100%);
+ 
+transition: 4s all;
 
-
+        transform: translateY(0%);
     }
 
-    .mobile-menu[data-visible="false"] {
-        transform: translateY(0%);
+    .mobile-menus[data-visible="false"] {
+        transform: translateY(100%);
+        display: none;
 
     }
 
@@ -1281,6 +1293,8 @@ margin-inline: auto; */
         display: block;
     }
 
+
+  
     /*end  mobile menus */
 
 
@@ -1289,15 +1303,14 @@ margin-inline: auto; */
         display: none;
     }
 
-    .mobile-menu {
-        display: flex;
-
-    }
+  
 
     /* end desktop-menus */
 
     /* start banner */
+  
     .Appointment {
+    
         min-height: 67%;
     }
 
@@ -1567,37 +1580,7 @@ gap: 2rem;
 
 }
 
-@media screen and (max-width:676px) {
-    .servise-boxs {
-        grid-template-columns: 1fr;
-
-        margin-inline: auto;
-        min-width: 20px;
-
-
-    }
-
-    /* how we work */
-  
-
-    .number-box {
-        margin-right: 1rem;
-    }
-
-    /*End  how we work */
-    /* stt\f */
-   
-
-    .staff-text h2 {
-        font-size: 1.5rem;
-        font-weight: 500;
-        line-height: 2.3rem;
-        color: #ffffff;
-    }
-
-    /* stt\f */
-}
-
+ 
 @media screen and (max-width:568px) {
 
     /* how we work */

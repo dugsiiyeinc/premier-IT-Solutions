@@ -62,8 +62,8 @@
 
             <!-- statr mobile-menu -->
 
-            <div class="mobile-menu">
-                <nav class=" mobile-menu">
+            <div class="mobile-menus "  data-visible= "false">
+                <nav class="mobile-menu">
                     <ul>
                         <li> <a href="#">Home</a></li>
                         <li> <a href="#">About</a></li>
@@ -72,6 +72,7 @@
                         <li> <a href="#">Contact</a></li>
                     </ul>
                 </nav>
+                
             </div>
 
             <!-- End mobile-menu -->
@@ -523,10 +524,12 @@
     </div>
  </section>
 <!--End  testmonial -->
+
+
     <!-- javascript -->
     <script>
         const humber = document.querySelector(".humber")
-        const mobilemenu = document.querySelector(".mobile-menu")
+        const mobilemenu = document.querySelector(".mobile-menus")
         const icons = document.querySelectorAll("i")
 
         humber.addEventListener("click", function (event) {
