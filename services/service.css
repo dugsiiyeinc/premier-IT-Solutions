@@ -641,6 +641,97 @@ h1 {
         text-align: justify;
     }
 
+  /* end why-choose-us-section */
+
+  .container-3 {
+    padding: 10px;
+}
+
+.pricing-plan {
+    width: 100%;
+    max-width: 300px;
+}
+
+.price h1 {
+    font-size: 2em;
+}
+
+.list-of-services-flex {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.Advanced-Analytics-2 {
+    width: 100%;
+}
+
+.purchase-now {
+    width: 100%;
+}
+
+.both button {
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+
+.both {
+    text-align: center;
+    justify-content: space-around;
+
+
+}
+ /* end pricing-section. */
+
+ .container-3 {
+    padding: 10px;
+}
+
+.pricing-plan {
+    width: 100%;
+    max-width: 300px;
+}
+
+.price h1 {
+    font-size: 2em;
+}
+
+.list-of-services-flex {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.Advanced-Analytics-2 {
+    width: 100%;
+}
+
+.purchase-now {
+    width: 100%;
+}
+
+.both button {
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+
+.both {
+    text-align: center;
+    justify-content: space-around;
+
+
+}
+
+
+
+
+
 
 
 }
