@@ -240,7 +240,7 @@ button:hover {
     background-color: #001D23;
 }
 
-/* end UI UX DESIGN */
+  /* end a bout section */
 
 
 
@@ -438,7 +438,32 @@ button:hover {
         width: 100%;
     }
 
-    /* end UI UX DESIGN */
+    /* end a bout section */
+
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        gap: 50px;
+
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+
+    }
+
+    .check-2 {
+        width: auto;
+
+    }
+
+    
+    /* end services-section  */
 
 
 
