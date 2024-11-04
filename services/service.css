@@ -244,6 +244,68 @@ button:hover {
 
 
 
+.cards {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+
+.card {
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card ul {
+    display: grid;
+    list-style: none;
+    padding: 0;
+}
+
+.cards-Template-Design {
+    display: flex;
+    gap: 1px;
+}
+
+
+.check-2 {
+    border: 2px solid #c4c4c5;
+    padding: 10px;
+    color: #086AD8;
+    width: 10%;
+    height: 10%;
+}
+
+.check-2:hover {
+    background-color: #086AD8;
+    color: #E9F4FF;
+}
+
+/* end services-section */
+
+
+
 
 
 
