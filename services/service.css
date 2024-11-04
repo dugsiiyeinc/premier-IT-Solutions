@@ -36,8 +36,7 @@ img {
 header {
     height: 48px;
     width: 100%;
-    /* padding: 0px 119px; */
-    border-bottom: 2px solid #E9F4FF;
+    /* border-bottom: 2px solid #E9F4FF; */
 }
 
 .top-header {
@@ -126,15 +125,14 @@ a {
 
 label:hover {
     color: #086AD8;
-} 
+}
+
+/* End top header */
 
 
 
 
-
-/* end top header */
-
-
+/* End second header */
 
 
 .hero {
@@ -157,9 +155,135 @@ label:hover {
 
 }
 
-
-
 /* end hero section  */
+
+.sawir img {
+    width: 500px;
+}
+
+
+.main {
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.pragraphs {
+    margin-top: 30px;
+}
+
+.pragraphs h1 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #001D23;
+    letter-spacing: -2px;
+
+}
+
+.p1 {
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.p1 span {
+    color: #086AD8;
+    font-size: 20px;
+}
+
+.p2 {
+    margin-top: 10px;
+    color: #001D23;
+}
+
+.Web-Template-Design {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.flex-guud {
+    margin-top: 40px;
+    display: flex;
+    gap: 50px;
+}
+
+.check {
+    border: 2px solid #c4c4c5;
+    padding: 10px;
+    color: #086AD8;
+}
+
+.check:hover {
+    background-color: #086AD8;
+    color: #E9F4FF;
+}
+
+.p-template p {
+    padding: 10px;
+
+}
+
+button {
+    background-color: #086AD8;
+    height: 56px;
+    width: 200px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #001D23;
+}
+
+/* end UI UX DESIGN */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Responsive Design for Mobile */
@@ -171,7 +295,8 @@ label:hover {
         text-align: center;
     }
 
-    .right-side, .left-side {
+    .right-side,
+    .left-side {
         flex-direction: column;
         align-items: center;
         gap: 10px;
@@ -189,52 +314,27 @@ label:hover {
         line-height: 22px;
     }
 
-    .info, a {
+    .info,
+    a {
         font-size: 14px;
     }
 
-    /* end respondive for top header */
+    /* end top header */
 
-    
     .img-bacground {
-        height: 300px; 
+        height: 300px;
         padding: 20px;
         width: 100%;
+        margin-top: 80px;
     }
 
     .informtaion h1 {
-        font-size: 2rem; 
+        font-size: 2rem;
         padding: 80px 20px;
-        text-align: center;
-}
-
-/* end respondive for hero section */
-
-
-}
-
-@media (max-width: 480px) {
-    header {
-        height: auto;
-        padding: 10px 0;
+        text-align: left;
     }
 
-    .icon i {
-        font-size: 20px;
-    }
+    /* end hero section */
 
-    .info, a {
-        font-size: 12px;
-    }
 
-    .right-side, .left-side {
-        align-items: center;
-        gap: 8px;
-    }
-
-    /* Ensures elements stack nicely on very small screens */
-    .top-header {
-        gap: 10px;
-    }
-    
 }
