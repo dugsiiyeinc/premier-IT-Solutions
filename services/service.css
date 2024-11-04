@@ -302,7 +302,6 @@ button:hover {
     color: #E9F4FF;
 }
 
-
 /* end services-section */
 
 
@@ -534,7 +533,40 @@ h1 {
 
     /* end services-section  */
 
-    
+    .Why-Choose-Us {
+        padding: 20px;
+        margin-top: 2rem;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .Why-Choose-Us p {
+        font-size: 18px;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feature {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .feature-title {
+        font-size: 1.3em;
+    }
+
+    .feature-text {
+        font-size: 0.9em;
+        text-align: justify;
+    }
 
 
 
