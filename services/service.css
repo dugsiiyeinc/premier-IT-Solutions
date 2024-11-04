@@ -302,7 +302,76 @@ button:hover {
     color: #E9F4FF;
 }
 
+
 /* end services-section */
+
+
+.Why-Choose-Us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin-top: 5rem;
+    background-color: #ececf2;
+}
+
+.Why-Choose-Us p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Why-Choose-Us p span,
+.feature-title span {
+    color: #086AD8;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+}
+
+.feature {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 700px;
+}
+
+.feature:hover {
+    border-top: 10px solid #086AD8;
+    box-shadow: 0 2px 5px rgba(87, 73, 166, 0.1);
+
+
+}
+
+.feature-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.feature-text {
+    color: #666;
+    line-height: 1.6;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
 
 
 
@@ -462,8 +531,10 @@ button:hover {
 
     }
 
-    
+
     /* end services-section  */
+
+    
 
 
 
