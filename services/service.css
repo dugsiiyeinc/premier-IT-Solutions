@@ -286,6 +286,8 @@ button:hover {
 
 
 
+
+
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
     .top-header {
@@ -335,6 +337,47 @@ button:hover {
     }
 
     /* end hero section */
+
+
+    
+    .main {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .sawir img {
+        width: 100%;
+        max-width: none;
+    }
+
+    .pragraphs h1 {
+        text-align: left;
+    }
+
+    .pragraphs h1 {
+        font-size: 28px;
+    }
+
+    .p1 {
+        font-size: 14px;
+    }
+
+    .p2 {
+        font-size: 14px;
+    }
+
+    .flex-guud {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    /* end UI UX DESIGN */
+
 
 
 }
