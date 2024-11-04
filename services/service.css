@@ -372,6 +372,79 @@ h1 {
 }
 
 
+/* end why-choose-us-section */
+
+
+
+
+
+
+.pricing-header-2 {
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pricing-header-2 p span {
+    color: #086AD8;
+}
+
+/* .......................................................... */
+
+
+.Advanced-Analytics-2 {
+    width: 500px;
+    height: 600px;
+    background-color: #f0f2f4;
+
+}
+
+.purchase-now {
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.purchase-now p {
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.both {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.both .pracise h1 span {
+    font-size: 20px;
+
+}
+
+.both .pracise h1 {
+    color: white
+}
+
+.list-of-services {
+    padding: 25px;
+
+}
+
+.list-of-services .cards-Template-Design {
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.list-of-services-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+/* end pricing-section */
 
 
 
