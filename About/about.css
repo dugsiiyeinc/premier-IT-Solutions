@@ -19,7 +19,7 @@ justify-content: center;
 body{
     font-family: 'Playfair Display', serif;
     display: grid;
-    background-color: #ffff
+    background-color:#ffffff ; 
     align-content: center;
     min-height: 100vh;
 }
@@ -113,5 +113,5 @@ section{
 
 
        
-}
+
 
