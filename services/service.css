@@ -447,6 +447,47 @@ h1 {
 /* end pricing-section */
 
 
+.back-logo {
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.back-logo h1 span {
+    color: #086AD8;
+}
+
+.info p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contacts .contact-flex .call .info p {
+    font-size: 16px;
+}
+
+.contacts .contact-flex .call .info a {
+    font-size: 10px;
+    padding: 0px;
+}
+
+.contact-flex {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.border {
+    border: 5px solid #086AD8;
+    box-shadow: 0 2px 5px rgba(87, 73, 166, 0.1);
+    margin-top: 40px;
+
+}
+
+
+/* End  contact-info-section. */
+
+
 
 
 
@@ -685,49 +726,6 @@ h1 {
 
 }
  /* end pricing-section. */
-
- .container-3 {
-    padding: 10px;
-}
-
-.pricing-plan {
-    width: 100%;
-    max-width: 300px;
-}
-
-.price h1 {
-    font-size: 2em;
-}
-
-.list-of-services-flex {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-}
-
-.Advanced-Analytics-2 {
-    width: 100%;
-}
-
-.purchase-now {
-    width: 100%;
-}
-
-.both button {
-    width: 100%;
-    padding: 20px 20px;
-    margin-bottom: 20px;
-    align-items: center;
-
-}
-
-.both {
-    text-align: center;
-    justify-content: space-around;
-
-
-}
-
 
 
 
