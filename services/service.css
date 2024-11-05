@@ -36,7 +36,7 @@ img {
 header {
     height: 48px;
     width: 100%;
-    /* border-bottom: 2px solid #E9F4FF; */
+ 
 }
 
 .top-header {
@@ -155,7 +155,7 @@ label:hover {
 
 }
 
-/* end hero section  */
+/* End hero section  */
 
 .sawir img {
     width: 500px;
@@ -240,7 +240,7 @@ button:hover {
     background-color: #001D23;
 }
 
-  /* end a bout section */
+  /* End a bout section */
 
 
 
@@ -302,7 +302,7 @@ button:hover {
     color: #E9F4FF;
 }
 
-/* end services-section */
+/* End services-section */
 
 
 .Why-Choose-Us {
@@ -372,7 +372,7 @@ h1 {
 }
 
 
-/* end why-choose-us-section */
+/* End why-choose-us-section */
 
 
 
@@ -444,7 +444,7 @@ h1 {
 }
 
 
-/* end pricing-section */
+/* End pricing-section */
 
 
 .back-logo {
@@ -486,6 +486,89 @@ h1 {
 
 
 /* End  contact-info-section. */
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer-service h4 {
+    color: #001D23;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.footer-service h4 span,
+.More-Links h4 span,
+.News-Feeds h4 span {
+    color: #086AD8;
+}
+
+.both-service-footer {
+    display: flex;
+    flex-direction: column 1fr 1fr;
+}
+
+.right-service-lists ol li,
+.left-service-lists ol li {
+    list-style-type: none;
+    padding: 5px;
+
+}
+
+.both-service-footer {
+    gap: 30px;
+}
+
+.more-links-flex {
+    display: flex;
+    gap: 60px;
+
+}
+
+.More-Links h4,
+.News-Feeds h4 {
+    margin-bottom: 10px;
+    color: #001D23;
+    text-align: left;
+}
+
+.img-and-icon {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+.News-Feeds-flex {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.img-and-icon i {
+    color: #086AD8;
+
+}
+
+.img-and-icon p {
+    font-size: 14px;
+}
+
+
+.End-footer {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.End-footer p span {
+    color: #086AD8;
+}
+
+/* End  footer-section. */
 
 
 
