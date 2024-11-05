@@ -805,6 +805,8 @@ h1 {
         align-items: center;
         padding: 10px 0;
         text-align: center;
+        border-bottom: 1px solid #666;
+       
     }
 
     .right-side,
@@ -838,14 +840,17 @@ h1 {
     /* mobile menus */
     .humber-contaier {
         display: flex;
-margin-top: 5rem;
+        margin-top: 5rem;
         justify-content: space-between;
         /* margin-top: 2rem; */
         padding: 2rem 0rem;
+        
     }
     .humber-contaier  .humber{
         z-index: 999;
     }
+
+  
 
     .humber i {
         color: #086AD8;
@@ -855,19 +860,20 @@ margin-top: 5rem;
         padding: 10px 13px;
         cursor: pointer;
         /* width: 30px; */
+        z-index: 999;
       
     }
 
    
     .logo {
         font-size: 1.5rem;
-      color: #fff;
+        color: black;
         font-weight: 800;
         line-height: 2.2rem;
         letter-spacing: 0.5rem;
         text-align: center;
         cursor: pointer;
-        z-index: 999;
+       
     
     }
  
@@ -882,34 +888,35 @@ margin-top: 5rem;
    
     .mobile-menu ul {
       
-        padding-left: 1rem;
+        /* padding-left: 1rem; */
         text-align: left;
         width: 100%;
         display: flex;
         flex-direction: column;
-      background-color: #001D23;
         font-size: 16px;
         font-weight: 400;
         height: 30rem;
         left: 0px;
         line-height: 26px;
-        top: 0;
+        top: -26px;
         position: absolute;
+       
 
     }
 
     .mobile-menu ul li {
-        width: 100%;
+        width: 90%;
         /* border: 1px solid white; */
         padding-bottom: 12px;
-        padding-left: 45.0938px;
-        padding-right: 45.0938px;
+        /* padding-left: 45.0938px; */
+        /* padding-right: 45.0938px; */
         padding-top: 12px;
-      
+        background-color: #001D23;
         border-top-color: rgba(255, 255, 255, 0.5);
         border-top-style: solid;
         border-top-width: 0.666667px;
         transition:  transform 3s ease-in-out;
+        margin-inline: auto;
 
     }
 
@@ -934,10 +941,10 @@ margin-top: 5rem;
         right: 0;
         top: 0;
    
-width: 100%;
+        width: 100%;
 
  
-transition: 4s all;
+        transition: 4s all;
 
         transform: translateY(0%);
     }
