@@ -286,7 +286,7 @@ display: none;
     left: 0;
     right: 0;
     padding: 6rem 2rem;
-    min-height: 40vh;
+    min-height: 40rem;
     background-color: #086AD8;
     top: 100%;
     box-sizing: border-box;
@@ -489,7 +489,7 @@ display: none;
 
 /* End service */
 .why-chooseUs-container {
-    height: 100vh;
+    height: 40rem;
     margin-top: 4rem;
     box-sizing: border-box;
 
@@ -592,10 +592,8 @@ margin-inline: auto; */
 /* call action section */
 
 .callMarging{
-    position: relative;
-   
- 
-  
+ margin-top: 5rem;
+   height: 25rem;
  
 }
 .call-action-section {
@@ -603,7 +601,7 @@ margin-inline: auto; */
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://wphix.com/template/techbuzz-prv/techbuzz/assets/images/bg/cta-bg-2.jpeg");
     /* height: 100%;  */
     width: 100%;
- 
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -878,7 +876,7 @@ margin-inline: auto; */
 /* our team*/
 .ourTeam-container {
     margin-top: 5rem;
-    height: 100vh;
+    height: 40rem;
 
 }
 
@@ -978,6 +976,7 @@ margin-inline: auto; */
 .testmonial-container {
     margin-top: 5rem;
     box-sizing: border-box;
+   
 
 }
 
@@ -1100,6 +1099,13 @@ margin-inline: auto; */
 
 
     /* why-schooseUs */
+   /* End service */
+.why-chooseUs-container {
+    height: 60rem;
+    margin-top: 4rem;
+    box-sizing: border-box;
+
+}
     .why-chooseUsGrid {
         display: grid;
         grid-template-columns: 1fr;
@@ -1113,12 +1119,11 @@ margin-inline: auto; */
     /* ENDwhy-schooseUs */
 
     /* call action */
-    .call-action-section {
-
-        margin-top: 20rem;
-
-
-    }
+    .callMarging{
+ margin-top: 30rem;
+        height: 20rem;
+      
+     }
 
     .call-action_text {
         flex-direction: column;
@@ -1405,7 +1410,7 @@ transition: 4s all;
     }
     .ourTeam-container {
         margin-top: 5rem;
-        height: 120vh;
+        height: 90rem;
 
     }
 
@@ -1510,10 +1515,9 @@ gap: 2rem;
     /* sttaf */
 
     /* our team */
-    .ourTeam-container {
+     .ourTeam-container {
         margin-top: 5rem;
-        height: 400vh;
-    
+        height: 230rem;
 
     }
     .ourTeamTitle h2 {
@@ -1616,6 +1620,13 @@ gap: 2rem;
     }
 
     /*END  sttaf */
+    /* testmonial */
+    .ourTeam-container {
+        margin-top: 5rem;
+        height: 170rem;
+
+    }
+    /* End testmonial */
 
 }
 
@@ -1671,6 +1682,12 @@ gap: 2rem;
     /*End  services */
 
     /* why-chooseUs */
+    .why-chooseUs-container {
+        height: 40rem;
+        margin-top: 4rem;
+        box-sizing: border-box;
+    
+    }
     .why-chooseUs-services-container {
         grid-template-columns: 1fr;
     }
@@ -1681,10 +1698,11 @@ gap: 2rem;
     }
 
     /*End why-chooseUs */
+
     /* call action */
-    /* .call-action-section {
-        margin-top: 40rem;
-    } */
+    .call-action-section {
+        margin-top: 10rem;
+    }
 
     .call-action_text .texts h3 {
         font-size: 2rem;
