@@ -291,7 +291,7 @@ display: none;
 }
 
 .mobile-menu ul li a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.625rem;
     font-weight: 500;
     font-family: "Roboto, sans-serif";
@@ -506,6 +506,15 @@ display: none;
 /* resposibe  */
 /* lagre tablates */
 @media (max-width:991px) {
+    .top-header {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+        text-align: center;
+        /* border-bottom: 1px solid #666; */
+      padding-bottom: 0rem;
+       
+    }
       /* mobile menus */
       .humber-contaier {
         display: flex;
@@ -686,7 +695,7 @@ display: none;
 
     .card-Team {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
 
     }
