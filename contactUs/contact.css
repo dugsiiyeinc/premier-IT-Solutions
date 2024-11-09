@@ -731,7 +731,7 @@ label:hover {
     .informtaion h1 {
         font-size: 2rem;
         padding: 80px 20px;
-        text-align: center;
+        text-align: left;
 
     }
 
@@ -768,7 +768,24 @@ label:hover {
     }
 
 
+    .form-section{
+        align-items: center;
+        justify-content: center;
+    }
+   
+
     /* end form-section */
+
+
+    .flex-guud{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+   
+
+    /* Individual Contact Boxes*/
 
   
     
