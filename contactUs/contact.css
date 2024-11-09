@@ -320,6 +320,7 @@ label:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 500px;
 }
 
 .contact-form {
@@ -334,10 +335,10 @@ label:hover {
     max-width: 5000px;
     background-color: #001D23;
     padding: 20px;
-    border-radius: 8px;
-    color: #fff;
+    color: white;
     margin-top: 30px;
     margin-bottom: 30px;
+    height: 700px;
 }
 
 .contact-form .form-group {
@@ -351,7 +352,9 @@ label:hover {
     grid-template-columns: 1fr 1fr;
     gap: 15px;
     width: 100%;
+
 }
+
 
 .contact-form label {
     display: flex;
@@ -389,14 +392,14 @@ label:hover {
 .submit-button {
     width: 50%;
     background-color: #086AD8;
-    color: #fff;
+    color: white;
     padding: 10px 10px;
     font-size: 1em;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
     height: 60px;
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 5px;
     align-self: center;
 }
@@ -491,7 +494,6 @@ label:hover {
         display: flex;
         margin-top: 5rem;
         justify-content: space-between;
-        /* margin-top: 2rem; */
         padding: 2rem 0rem;
 
     }
@@ -531,14 +533,11 @@ label:hover {
     .mobile-menus {
         display: flex;
         flex-direction: column;
-
         z-index: 111;
     }
 
 
     .mobile-menu ul {
-
-        /* padding-left: 1rem; */
         text-align: left;
         width: 100%;
         display: flex;
@@ -556,10 +555,7 @@ label:hover {
 
     .mobile-menu ul li {
         width: 90%;
-        /* border: 1px solid white; */
         padding-bottom: 12px;
-        /* padding-left: 45.0938px; */
-        /* padding-right: 45.0938px; */
         padding-top: 12px;
         background-color: #001D23;
         border-top-color: rgba(255, 255, 255, 0.5);
@@ -571,7 +567,6 @@ label:hover {
     }
 
     .mobile-menu ul li a {
-        /* font-size: 1rem; */
         line-height: 26px;
         font-size: 1rem;
         text-transform: uppercase;
@@ -620,9 +615,8 @@ label:hover {
         display: none;
     }
 
-
-
     /* end desktop-menus */
+
     /* end mobile resposive */
 
 
@@ -642,6 +636,43 @@ label:hover {
     }
 
     /* end hero section */
+
+
+    .contact-form-container{
+        height: 850px;
+    }
+    .contact-form-flex {
+        grid-template-columns: 1fr; 
+        gap: 10px;
+    }
+
+    .submit-button {
+        width: 100%; 
+        
+    }
+
+    .contact-form-container {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 15px; 
+        font-size: 0.9em; 
+    }
+
+    .contact-form .icon {
+        font-size: 1.5em; 
+    }
+
+
+    /* end form-section */
+
+  
+    
+
 
 
 
