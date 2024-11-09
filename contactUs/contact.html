@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./contact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    
+
 
     <header class="container">
         <div class="top-header">
@@ -64,20 +68,20 @@
     <!-- End top header -->
 
 
-    
+
     <header class="header">
         <div class="container">
             <!-- starthumber -->
             <div class="humber-contaier ">
-                <div class="logo" >
-                   <p > PRE<span style="color: #086AD8;;">MIER</span></p> 
-                   
+                <div class="logo">
+                    <p> PRE<span style="color: #086AD8;;">MIER</span></p>
+
                     <!-- <P class="BOTTOM-TEXT-LOGO">IT SOLUTIONS</P> -->
                 </div>
                 <div class="humber">
                     <i class="fa-solid fa-bars" data-visible="true"></i>
                     <i class="fa-solid fa-xmark" data-visible="false"></i>
-                    
+
                 </div>
             </div>
             <!-- End humber -->
@@ -117,7 +121,7 @@
 
             <!-- statr mobile-menu -->
 
-            <div class="mobile-menus "  data-visible= "false">
+            <div class="mobile-menus " data-visible="false">
                 <nav class="mobile-menu">
                     <ul>
                         <li> <a href="#">Home</a></li>
@@ -127,7 +131,7 @@
                         <li> <a href="#">Contact</a></li>
                     </ul>
                 </nav>
-                
+
             </div>
 
             <!-- End mobile-menu -->
@@ -155,51 +159,105 @@
 
     <!-- End hero section -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- javascript -->
-        <script>
-            const humber = document.querySelector(".humber")
-            const mobilemenu = document.querySelector(".mobile-menus")
-            const icons = document.querySelectorAll("i")
     
-            humber.addEventListener("click", function (event) {
-                const isvisible = mobilemenu.getAttribute('data-visible');
-    
-                if (isvisible == "true") {
-                    // qarin
-                    mobilemenu.setAttribute('data-visible', "false")
-                    icons[0].setAttribute('data-visible', "true")
-                    icons[1].setAttribute('data-visible', "false")
-                }
-                else {
-                    mobilemenu.setAttribute('data-visible', "true")
-                    icons[0].setAttribute('data-visible', "false")
-                    icons[1].setAttribute('data-visible', "true")
-                }
-            })
-        </script>
-        <!-- End javascript -->
+
+    <section class="container">
+        <div class="form-section">
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <div class="contact-form-flex">
+                        <div class="form-group">
+                            <label for="name">
+                                <i class="icon">&#128100;</i>
+                                <input type="text" id="name" placeholder="Enter your full name">
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                <i class="icon">&#9993;</i>
+                                <input type="email" id="email" placeholder="Enter email address">
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">
+                                <i class="icon">&#128222;</i>
+                                <input type="tel" id="phone" placeholder="Add phone number">
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                <i class="icon">&#9997;</i>
+                                <input type="text" id="subject" placeholder="Enter your subject">
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">
+                            <i class="icon">&#128221;</i>
+                            <textarea id="message" placeholder="Enter message"></textarea>
+                        </label>
+                    </div>
+                    <button type="submit" class="submit-button">Submit Your Message</button>
+                </form>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <!-- end form-section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- javascript -->
+    <script>
+        const humber = document.querySelector(".humber")
+        const mobilemenu = document.querySelector(".mobile-menus")
+        const icons = document.querySelectorAll("i")
+
+        humber.addEventListener("click", function (event) {
+            const isvisible = mobilemenu.getAttribute('data-visible');
+
+            if (isvisible == "true") {
+                // qarin
+                mobilemenu.setAttribute('data-visible', "false")
+                icons[0].setAttribute('data-visible', "true")
+                icons[1].setAttribute('data-visible', "false")
+            }
+            else {
+                mobilemenu.setAttribute('data-visible', "true")
+                icons[0].setAttribute('data-visible', "false")
+                icons[1].setAttribute('data-visible', "true")
+            }
+        })
+    </script>
+    <!-- End javascript -->
 
 
 </body>
+
 </html>

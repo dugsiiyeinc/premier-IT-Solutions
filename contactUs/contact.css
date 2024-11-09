@@ -26,9 +26,6 @@ body {
     margin-inline: auto;
 }
 
-
-
-
 img {
     width: 100%;
 }
@@ -36,15 +33,13 @@ img {
 header {
     height: 48px;
     width: 100%;
- 
+
 }
 
 .top-header {
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .right-side {
     display: flex;
@@ -89,14 +84,11 @@ header {
     text-align: center;
 }
 
-
-
 .info,
 a {
     padding: 7px 0px;
     text-decoration: none;
     color: #001D23;
-
 }
 
 .icon {
@@ -127,17 +119,17 @@ label:hover {
     color: #086AD8;
 }
 
+
 /* End top header */
+
 
 .container {
     width: min(90%, 1200px);
     margin-inline: auto;
 }
 
-/* header */
 .header {
- height: 6rem;
-
+    height: 6rem;
     position: relative;
 
 }
@@ -170,9 +162,7 @@ label:hover {
 
 .disktop-menus ul {
     display: flex;
-    /* gap: 2rem; */
     list-style: none;
-
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -182,7 +172,6 @@ label:hover {
 .disktop-menus ul li a {
     font-size: 1.4rem;
     line-height: 1.625rem;
-
     font-weight: 500;
     font-family: "Roboto, sans-serif";
     color: #001D23;
@@ -194,17 +183,17 @@ label:hover {
 }
 
 .disktop-menus ul li a:hover {
-   
     color: #086AD8;
 }
+
 
 .getA-Quote {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
+
 
 .getA-Quote .get {
     display: flex;
@@ -217,13 +206,14 @@ label:hover {
     cursor: pointer;
 }
 
+
 .getA-Quote .get span {
     color: white;
-
     font-size: 17px;
     font-weight: 700;
     font-family: "Roboto, sans-serif";
 }
+
 
 .getA-Quote .get a {
     font-size: 17px;
@@ -232,14 +222,11 @@ label:hover {
     font-family: "Roboto, sans-serif";
     text-decoration: none;
     left: 54px;
-
-
 }
+
 
 .getA-Quote .get:hover {
     background-color: #000;
-  
-
 }
 
 .getA-Quote .get:hover a {
@@ -251,14 +238,13 @@ label:hover {
 }
 
 .search-Icon {
-  
+
     font-weight: 400;
     height: 63px;
     padding: 1.2rem 1.4rem;
-  text-align: center;
+    text-align: center;
     transition: background-color 0.5s;
     cursor: pointer;
-
 }
 
 .search-Icon i {
@@ -267,10 +253,9 @@ label:hover {
 
 .search-Icon:hover {
     background-color: #086AD8;
-   
-
 }
-.search-Icon:hover i{
+
+.search-Icon:hover i {
     color: white;
 }
 
@@ -279,19 +264,14 @@ label:hover {
     display: none;
 }
 
-
-.mobile-menus{
-display: none;
-
-   
+.mobile-menus {
+    display: none;
 }
 
 
 .mobile-menu ul {
     display: flex;
-    /* gap: 2rem; */
     list-style: none;
-
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -301,7 +281,6 @@ display: none;
 .mobile-menu ul li a {
     font-size: 1.4rem;
     line-height: 1.625rem;
-
     font-weight: 500;
     font-family: "Roboto, sans-serif";
     color: white;
@@ -309,11 +288,12 @@ display: none;
     padding: 38px 20px;
     text-transform: capitalize;
     transition: background-color 0.5s;
-
 }
 
 
+
 /* End second header */
+
 .hero {
     margin-top: 20px;
 }
@@ -323,7 +303,6 @@ display: none;
     background: linear-gradient(rgba(27, 28, 28, 0.5), rgba(20, 19, 19, 0.5)), url("https://wphix.com/template/techbuzz-prv/techbuzz/assets/images/bg/breadcrumb-bg-1.jpeg") center /cover no-repeat;
     justify-content: center;
     align-items: center;
-
 }
 
 .informtaion h1 {
@@ -331,10 +310,104 @@ display: none;
     font-size: 3rem;
     font-weight: 800;
     padding: 160px 80px;
-
 }
 
 /* End hero section  */
+
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form-container {
+    width: 90%;
+    max-width: 5000px;
+    background-color: #001D23;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.contact-form-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+}
+
+.contact-form label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-form .icon {
+    font-size: 2em;
+    margin-right: 10px;
+    color: #4CAF50;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 20px;
+    background-color: #022830;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    outline: none;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 200px;
+    min-height: 100px;
+    width: 100%;
+}
+
+
+.submit-button {
+    width: 50%;
+    background-color: #086AD8;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.submit-button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+/*  end form-section  */
+
 
 
 
@@ -381,7 +454,7 @@ display: none;
         padding: 10px 0;
         text-align: center;
         border-bottom: 1px solid #666;
-       
+
     }
 
     .right-side,
@@ -420,13 +493,14 @@ display: none;
         justify-content: space-between;
         /* margin-top: 2rem; */
         padding: 2rem 0rem;
-        
+
     }
-    .humber-contaier  .humber{
+
+    .humber-contaier .humber {
         z-index: 999;
     }
 
-  
+
 
     .humber i {
         color: #086AD8;
@@ -437,10 +511,10 @@ display: none;
         cursor: pointer;
         /* width: 30px; */
         z-index: 999;
-      
+
     }
 
-   
+
     .logo {
         font-size: 1.5rem;
         color: black;
@@ -449,21 +523,21 @@ display: none;
         letter-spacing: 0.5rem;
         text-align: center;
         cursor: pointer;
-       
-    
+
+
     }
- 
+
 
     .mobile-menus {
         display: flex;
         flex-direction: column;
-        
+
         z-index: 111;
     }
-   
-   
+
+
     .mobile-menu ul {
-      
+
         /* padding-left: 1rem; */
         text-align: left;
         width: 100%;
@@ -476,7 +550,7 @@ display: none;
         line-height: 26px;
         top: -26px;
         position: absolute;
-       
+
 
     }
 
@@ -491,7 +565,7 @@ display: none;
         border-top-color: rgba(255, 255, 255, 0.5);
         border-top-style: solid;
         border-top-width: 0.666667px;
-        transition:  transform 3s ease-in-out;
+        transition: transform 3s ease-in-out;
         margin-inline: auto;
 
     }
@@ -503,23 +577,23 @@ display: none;
         text-transform: uppercase;
         font-weight: 500;
         color: rgb(255, 255, 255);
-        
+
     }
 
     .mobile-menu ul li a:hover {
         color: #086AD8;
     }
 
-  
-    .mobile-menus{
+
+    .mobile-menus {
         position: absolute;
         left: 0;
         right: 0;
         top: 0;
-   
+
         width: 100%;
 
- 
+
         transition: 4s all;
 
         transform: translateY(0%);
@@ -538,6 +612,7 @@ display: none;
     .humber i[data-visible="true"] {
         display: block;
     }
+
     /*end  mobile menus */
 
     /* desktop-menus */
@@ -545,31 +620,30 @@ display: none;
         display: none;
     }
 
-  
+
 
     /* end desktop-menus */
     /* end mobile resposive */
 
 
 
+    .img-bacground {
+        height: 300px;
+        padding: 20px;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .informtaion h1 {
+        font-size: 2rem;
+        padding: 80px 20px;
+        text-align: center;
+
+    }
+
+    /* end hero section */
+
+
+
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
