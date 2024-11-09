@@ -1153,7 +1153,7 @@ margin-inline: auto; */
     text-align: center;
 }
 
- button{
+ .btn-contact button{
     background-color: #086AD8;
     height: 56px;
     width: 200px;
@@ -1161,8 +1161,12 @@ margin-inline: auto; */
     color: white;
     font-size: 16px;
 }
+.btn-contact button a{
+    color: white;
+    font-size: 16px;
+}
 
-button:hover {
+ .btn-contact button:hover {
     background-color: #001D23;
 }
 
@@ -1267,12 +1271,18 @@ a {
 
 .End-footer {
     text-align: center;
-    margin-bottom: 40px;
-    margin-top: 3rem;
+    /* margin-bottom: 40px; */
+    margin-top: 6rem;
+    background-color: #086AD8;
+    padding: 2rem;
+ 
+   
+
+    color: #fff;
 }
 
 .End-footer p span {
-    color: #086AD8;
+    color: #001D23;
 }
 
 /* End  footer-section. */
@@ -1815,6 +1825,14 @@ gap: 2rem;
         align-items: center;
     
     }
+    .both-service-footer {
+        display: flex;
+        flex-direction: column 1fr ;
+    }
+    button{
+      margin-left: 4rem;
+      margin-top: 2rem;
+    }
     
     
     /* End  contact-info-section. */
@@ -1829,7 +1847,7 @@ gap: 2rem;
     
     .footer {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     
     }
     
@@ -1854,7 +1872,7 @@ gap: 2rem;
     
     .both-service-footer {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
         gap: 20px;
     }
     
@@ -1886,12 +1904,12 @@ gap: 2rem;
     
     .End-footer {
         text-align: center;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
         margin-top: 30px;
     }
     
     .End-footer p span {
-        color: #086AD8;
+        color: #001D23;
     }
     
     /* End footer */
@@ -2105,6 +2123,14 @@ row-gap: 5rem;
     }
 
     /* End our team */
+       /* footer */
+       .footer {
+        display: grid;
+        grid-template-columns: 1fr ;
+       margin-left: 3rem;
+    
+    }
+    
 
 
 }
@@ -2128,6 +2154,8 @@ row-gap: 5rem;
     }
 
     /* End sttaf */
+
+    
 }
 
 /* endmobile screens */
