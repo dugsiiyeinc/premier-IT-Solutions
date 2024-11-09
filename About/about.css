@@ -1,183 +1,190 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
-/* Reset and Basic Styling */
+
+:root {
+  --primary-color: #149e9e;
+  --secondary-color: #e8e8e8;
+  --text-dark: #0f172a;
+  --text-light: #94a3b8;
+  --white: #ffffff;
+}
+
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Playfair Display', serif;
-    display: grid;
-    background-color: #021f25;
-    align-content: center;
-    min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--secondary-color);
 }
 
-.title {
-    color: #ffffff;
-    background-color: #021f25;
-    justify-content: center;
+.section__container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
 }
 
-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    min-height: 90vh;
-    width: 85vw;
-    margin: 0 auto;
+.section__container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
 }
 
-/* Image Styling */
-.image {
-    background: url("https://media.istockphoto.com/id/1411109269/photo/online-video-communication-friendly-successful-indian-or-arabian-executive-stock-broker.jpg?s=612x612&w=0&k=20&c=rVuK3bQwJgTwP-d_ywTaTzvxFe9UCM7cHlArMsjASmY=") center/cover no-repeat;
+.section__container h1 {
+  position: relative;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
 }
 
-/* Content Styling */
-.content {
-    background: #021f25;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.section__container h1::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 5rem;
+  background-color: var(--primary-color);
 }
 
-.content h2 {
-    text-transform: uppercase;
-    font-size: 36px;
-    letter-spacing: 6px;
-    opacity: 0.9;
-    color: #ffffff;
+.section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
-.content span {
-    height: 0.5px;
-    width: 80px;
-    background: #ffffff;
-    margin: 30px 0;
+.section__card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 5rem 2rem 2rem;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
 }
 
-.content p {
-    padding-bottom: 15px;
-    font-weight: 300;
-    opacity: 0.7;
-    width: 60%;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 1.7;
-    color: #ffffff;
+.section__card::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background-color: var(--primary-color);
+  z-index: -1;
+  transition: 0.5s;
 }
 
-/* Links Styling */
-.links {
-    margin: 15px 0;
+.section__card span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  font-size: 3rem;
+  color: var(--white);
 }
 
-.links li {
-    border: 0.5px solid #ffffff;
-    list-style: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    width: 160px;
-    text-align: center;
-    margin: 5px 0;
+.section__card h4 {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  transition: 0.3s;
 }
 
-.links li a {
-    text-transform: uppercase;
-    color: #ffffff;
-    text-decoration: none;
+.section__card p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+  transition: 0.3s;
 }
 
-.links li:hover {
-    border-color: #ffffff;
+.section__card img {
+  margin-bottom: 1rem;
+  max-width: 100px;
+  border-radius: 100%;
+  border: 2px solid var(--primary-color);
+  transition: 0.3s;
 }
 
-.links li:hover a {
-    color: #0515c4;
+
+
+.section__card h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  transition: 0.3s;
 }
 
-.vertical-line {
-    height: 30px;
-    width: 0.5px;
-    background: #ffffff;
-    margin: 0 auto;
+.section__card h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-light);
+  transition: 0.3s;
 }
 
-/* Icons Styling */
-.icons {
-    display: flex;
-    padding: 15px 0;
-    color: #ffffff;
+.section__card:hover::before {
+  width: 400%;
 }
 
-.icons li {
-    display: block;
-    padding: 5px;
-    margin: 5px;
+.section__card:hover :is(h4, h5) {
+  color: var(--white);
 }
 
-.icons li i {
-    font-size: 26px;
-    opacity: 0.8;
+.section__card:hover :is(p, h6) {
+  color: var(--secondary-color);
 }
 
-.icons li i:hover {
-    color: #0515c4;
+.section__card:hover img {
+  border-color: var(--white);
 }
 
-/* Responsive Styling */
+/* Responsive Design */
+@media (max-width: 992px) {
+  .section__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
-    section {
-        grid-template-columns: 1fr;
-        width: 90vw;
-    }
-
-    .content h2 {
-        font-size: 28px;
-    }
-
-    .content p {
-        width: 80%;
-        font-size: 16px;
-    }
-
-    .links li {
-        width: 140px;
-        padding: 8px 12px;
-    }
-
-    .icons li i {
-        font-size: 22px;
-    }
+  .section__grid {
+    grid-template-columns: 1fr;
+  }
 }
 
-@media (max-width: 480px) {
-    section {
-        width: 95vw;
-    }
+@media (max-width: 576px) {
+  .section__container h1 {
+    font-size: 2rem;
+  }
 
-    .content h2 {
-        font-size: 24px;
-    }
+  .section__container h2 {
+    font-size: 1.25rem;
+  }
 
-    .content p {
-        width: 90%;
-        font-size: 14px;
-    }
+  .section__card {
+    padding: 3rem 1rem 1.5rem;
+  }
 
-    .links li {
-        width: 120px;
-        padding: 6px 10px;
-    }
+  .section__card h4 {
+    font-size: 1.25rem;
+  }
 
-    .icons {
-        flex-direction: column;
-    }
+  .section__card h5 {
+    font-size: 1.1rem;
+  }
 
-    .icons li i {
-        font-size: 20px;
-    }
+  .section__card h6 {
+    font-size: 0.9rem;
+  }
+
+  .section__card p {
+    font-size: 0.9rem;
+  }
 }
