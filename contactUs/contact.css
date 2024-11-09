@@ -320,7 +320,6 @@ label:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 500px;
 }
 
 .contact-form {
@@ -410,6 +409,107 @@ label:hover {
 }
 
 /*  end form-section  */
+
+.flex-guud{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.box{
+    background-color: #fff;
+    height: 300px;
+    width: 400px;
+    box-shadow: 0px 0px 15px rgba(33, 31, 28, 0.8);  
+}
+
+.house-office{
+   text-align: center;
+   font-size: 50px;
+   color:#086AD8;
+   padding-top: 30px;
+  
+}
+.information-house-laptop{
+    text-align: center;
+    padding: 5px;
+    color: #000;
+    margin-top: 20px;
+}
+.information-house-laptop p{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+.box-2{
+    background-color: #001D23;
+    height: 300px;
+    width: 400px;
+    box-shadow: 0px 0px 15px rgba(33, 31, 28, 0.8);  
+}
+
+.house-office-2{
+   text-align: center;
+   font-size: 50px;
+   color:#086AD8;
+   padding-top: 30px;
+  
+}
+.information-house-laptop-2{
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    margin-top: 20px;
+}
+.information-house-laptop-2 p{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.box-3{
+    background-color: #086AD8;
+    height: 300px;
+    width: 400px;
+    box-shadow: 0px 0px 15px rgba(33, 31, 28, 0.8);  
+}
+
+.house-office-3{
+   text-align: center;
+   font-size: 50px;
+   color:#ffff;
+   padding-top: 30px;
+  
+}
+.information-house-laptop-3{
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    margin-top: 20px;
+}
+.information-house-laptop-3 p{
+    margin-top: 10px;
+}
+
+
+/* Individual Contact Boxes: */
+
+
+
 
 
 
