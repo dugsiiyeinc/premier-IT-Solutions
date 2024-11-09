@@ -314,7 +314,27 @@ display: none;
 
 
 /* End second header */
+.hero {
+    margin-top: 20px;
+}
 
+.img-bacground {
+    height: 355.188px;
+    background: linear-gradient(rgba(27, 28, 28, 0.5), rgba(20, 19, 19, 0.5)), url("https://wphix.com/template/techbuzz-prv/techbuzz/assets/images/bg/breadcrumb-bg-1.jpeg") center /cover no-repeat;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.informtaion h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 160px 80px;
+
+}
+
+/* End hero section  */
 
 
 
