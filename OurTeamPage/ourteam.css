@@ -14,6 +14,7 @@ body {
 }
 
 header {
+    margin-top: 1rem;
     height: 48px;
     width: 100%;
     padding: 0rem 1rem;
@@ -24,6 +25,10 @@ header {
 .top-header {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #a6cefb;
+    width: 100%;
+    padding: 0.5rem;
+  
  
 }
 
@@ -114,7 +119,7 @@ label:hover {
 
 
 .container {
-    width: min(90%, 1200px);
+    width: min(95%, 1200px);
     margin-inline: auto;
 }
 
@@ -136,7 +141,7 @@ label:hover {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: white;
     font-weight: 800;
     line-height: 2.2rem;
@@ -164,7 +169,7 @@ label:hover {
 }
 
 .disktop-menus ul li a {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     line-height: 1.625rem;
 
     font-weight: 500;
@@ -194,11 +199,14 @@ label:hover {
     display: flex;
     gap: 10px;
     background-color: #086AD8;
-    padding: 1.2rem 1.8rem;
+    padding: 0.7rem 1.5rem;
     margin-right: 1.25rem;
     color: white;
     transition: background-color 0.3s ease-in-out;
     cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .getA-Quote .get span {
@@ -237,7 +245,7 @@ label:hover {
 .search-Icon {
   
     font-weight: 400;
-    height: 63px;
+    height: 54px;
     padding: 1.2rem 1.4rem;
   text-align: center;
     transition: background-color 0.5s;
@@ -285,7 +293,6 @@ display: none;
 .mobile-menu ul li a {
     font-size: 1.4rem;
     line-height: 1.625rem;
-
     font-weight: 500;
     font-family: "Roboto, sans-serif";
     color: white;
@@ -308,6 +315,7 @@ display: none;
     height: 60vh;
     width: 100%;
     position: relative;
+    margin-top: 1rem;
   
 }
 
@@ -498,6 +506,142 @@ display: none;
 /* resposibe  */
 /* lagre tablates */
 @media (max-width:991px) {
+      /* mobile menus */
+      .humber-contaier {
+        display: flex;
+        margin-top: 5rem;
+        justify-content: space-between;
+        /* margin-top: 2rem; */
+        padding: 2rem 0rem;
+        
+    }
+    .humber-contaier  .humber{
+        z-index: 999;
+    }
+
+  
+
+    .humber i {
+        color: #086AD8;
+        font-size: 1.3rem;
+        border: 1px solid #086AD8;
+        font-weight: 700;
+        padding: 10px 13px;
+        cursor: pointer;
+        /* width: 30px; */
+        z-index: 999;
+      
+    }
+
+   
+    .logo {
+        font-size: 1.5rem;
+        color: black;
+        font-weight: 800;
+        line-height: 2.2rem;
+        letter-spacing: 0.5rem;
+        text-align: center;
+        cursor: pointer;
+       
+    
+    }
+ 
+
+    .mobile-menus {
+        display: flex;
+        flex-direction: column;
+        
+        z-index: 111;
+    }
+   
+   
+    .mobile-menu ul {
+      
+        /* padding-left: 1rem; */
+        text-align: left;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        font-weight: 400;
+        height: 30rem;
+        left: 0px;
+        line-height: 26px;
+        top: -26px;
+        position: absolute;
+       
+
+    }
+
+    .mobile-menu ul li {
+        width: 100%;
+        /* border: 1px solid white; */
+        padding-bottom: 12px;
+        /* padding-left: 45.0938px; */
+        /* padding-right: 45.0938px; */
+        padding-top: 12px;
+        background-color: #001D23;
+        border-top-color: rgba(255, 255, 255, 0.5);
+        border-top-style: solid;
+        border-top-width: 0.666667px;
+        transition:  transform 3s ease-in-out;
+        margin-inline: auto;
+
+    }
+
+    .mobile-menu ul li a {
+        /* font-size: 1rem; */
+        line-height: 26px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+        
+    }
+
+    .mobile-menu ul li a:hover {
+        color: #086AD8;
+    }
+
+  
+    .mobile-menus{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+   
+        width: 100%;
+
+ 
+        transition: 4s all;
+
+        transform: translateY(0%);
+    }
+
+    .mobile-menus[data-visible="false"] {
+        transform: translateY(100%);
+        display: none;
+
+    }
+
+    .humber i[data-visible="false"] {
+        display: none;
+    }
+
+    .humber i[data-visible="true"] {
+        display: block;
+    }
+    /*end  mobile menus */
+
+    /* desktop-menus */
+    .disktop-menus {
+        display: none;
+    }
+
+  
+
+    /* end desktop-menus */
+    /* end mobile resposive */
 
     /* hero team */
     .hero-text h3 {
@@ -569,8 +713,8 @@ display: none;
         align-items: center;
         padding: 10px 0;
         text-align: center;
-        border-bottom: 1px solid #666;
-      padding-bottom: 5rem;
+        /* border-bottom: 1px solid #666; */
+      padding-bottom: 0rem;
        
     }
 
@@ -670,7 +814,7 @@ display: none;
     }
 
     .mobile-menu ul li {
-        width: 90%;
+        width: 100%;
         /* border: 1px solid white; */
         padding-bottom: 12px;
         /* padding-left: 45.0938px; */
