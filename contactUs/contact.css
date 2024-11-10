@@ -412,7 +412,7 @@ label:hover {
 
 .flex-guud{
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: flex;
     gap: 20px;
 }
@@ -444,7 +444,7 @@ label:hover {
 
 
 
-
+/*  */
 
 
 
@@ -473,14 +473,7 @@ label:hover {
 }
 
 
-
-
-
-
-
-
-
-
+/*  */
 .box-3{
     background-color: #086AD8;
     height: 300px;
@@ -792,6 +785,11 @@ iframe{
    
 
     /* Individual Contact Boxes*/
+
+
+    iframe{
+        width: 100%;
+    }
 
   
     
