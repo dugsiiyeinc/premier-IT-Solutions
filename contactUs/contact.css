@@ -9,6 +9,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: white;
+    
 }
 
 .container {
@@ -226,7 +227,7 @@ label:hover {
 
 
 .getA-Quote .get:hover {
-    background-color: #000;
+    background-color: #001D23;
 }
 
 .getA-Quote .get:hover a {
@@ -240,7 +241,7 @@ label:hover {
 .search-Icon {
 
     font-weight: 400;
-    height: 63px;
+    height: 69px;
     padding: 1.2rem 1.4rem;
     text-align: center;
     transition: background-color 0.5s;
@@ -405,7 +406,7 @@ label:hover {
 
 .submit-button:hover {
     background-color: #fff;
-    color: black;
+    color: #001D23;
 }
 
 /*  end form-section  */
@@ -435,7 +436,7 @@ label:hover {
 .information-house-laptop{
     text-align: center;
     padding: 5px;
-    color: #000;
+    color: #001D23;
     margin-top: 20px;
 }
 .information-house-laptop p{
@@ -550,7 +551,7 @@ iframe{
 }
 .contact-flex button:hover{
     cursor: pointer;
-    background-color: #022830;
+    background-color: #001D23;
 
 }
 
@@ -697,7 +698,7 @@ iframe{
         align-items: center;
         padding: 10px 0;
         text-align: center;
-        border-bottom: 1px solid #666;
+        border-bottom: 1px solid #001D23;
 
     }
 
@@ -760,12 +761,13 @@ iframe{
 
     .logo {
         font-size: 1.5rem;
-        color: black;
+        color: #001D23;
         font-weight: 800;
         line-height: 2.2rem;
         letter-spacing: 0.5rem;
         text-align: center;
         cursor: pointer;
+        
 
 
     }
