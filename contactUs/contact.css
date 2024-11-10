@@ -503,9 +503,49 @@ label:hover {
 
 iframe{
     width: 100%;
+    margin-bottom: 100px;
+    height: 700px;
 }
 
 /* end location section  */
+
+
+.back-logo {
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.back-logo h1 span {
+    color: #086AD8;
+}
+
+.info p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contacts .contact-flex .call .info p {
+    font-size: 16px;
+}
+
+.contacts .contact-flex .call .info a {
+    font-size: 10px;
+    padding: 0px;
+}
+
+.contact-flex {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.border {
+    border: 5px solid #086AD8;
+    box-shadow: 0 2px 5px rgba(87, 73, 166, 0.1);
+    margin-top: 40px;
+
+}
 
 
 
@@ -790,6 +830,9 @@ iframe{
     iframe{
         width: 100%;
     }
+
+
+    /* end location section  */
 
   
     
