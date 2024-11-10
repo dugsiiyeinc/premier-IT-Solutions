@@ -545,7 +545,13 @@ iframe{
    background-color: #086AD8;
    border: none;
    padding: 0px 60px;
+   color: #fff;
     
+}
+.contact-flex button:hover{
+    cursor: pointer;
+    background-color: #022830;
+
 }
 
 .border {
@@ -960,8 +966,12 @@ iframe{
         background-color: #086AD8;
         border: none;
         padding: 20px 60px;
+       
+
          
      }
+
+ 
     
     .contacts .contact-flex button {
         align-items: center;
