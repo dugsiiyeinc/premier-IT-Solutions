@@ -654,6 +654,7 @@ margin-inline: auto; */
 
     display: flex;
     gap: 10px;
+   align-items: center;
     background-color: #086AD8;
     padding: 1.2rem 1.8rem;
     margin-right: 1.25rem;
@@ -1093,6 +1094,84 @@ margin-inline: auto; */
 
 
 /* footer */
+
+/* newslatter */
+.neswlattersection{
+    margin-top: 15rem;
+    background-color: #F8F8F8;
+    padding: 5rem 0rem;
+}
+.newlatter-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.newslatter-icon{
+    /* display: flex; */
+ 
+
+}
+.newslatter-icon a{
+ display: inline-block;
+ line-height: 5rem;
+margin-right: 1rem;
+    /* justify-content: center;
+    align-items: center;
+   text-align: center; */
+    background: #ffffff;
+    color: #001D23;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    transition: background-color color 0.4s ease-in-out;
+}
+.newslatter-icon a:hover{
+    background-color: #086AD8;
+    color: #E9F4FF;
+    font-size: 18px;
+}
+
+.newslatter-inputes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+
+.newslatter-inputes input{
+    border: none;
+    outline: none;
+    margin-right: 2rem;
+    padding: 1.75rem;
+}
+.newslatter-inputes input::placeholder{
+    color: #001d23;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.newslatter-btn button{
+    background-color: #086AD8;
+    padding: 1.2rem 1.8rem;
+    margin-right: 1.25rem;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+   
+    text-decoration: none;
+    left: 54px;
+}
+
+.newslatter-btn button span{
+    padding-left: 1rem;
+}
+.newslatter-btn button:hover{
+        background-color: #001D23;
+    
+}
+/* end newslatter */
 
 .back-logo {
     text-align: center;
