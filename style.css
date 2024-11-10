@@ -680,7 +680,7 @@ margin-inline: auto; */
 
 /* end call action section */
 
-/* how e works */
+/* how we works */
 
 .how-we-works {
     margin-top: 5rem;
@@ -1105,18 +1105,12 @@ margin-inline: auto; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.newslatter-icon{
-    /* display: flex; */
- 
 
-}
 .newslatter-icon a{
  display: inline-block;
  line-height: 5rem;
 margin-right: 1rem;
-    /* justify-content: center;
-    align-items: center;
-   text-align: center; */
+   
     background: #ffffff;
     color: #001D23;
     width: 5rem;
@@ -1132,21 +1126,26 @@ margin-right: 1rem;
 
 .newslatter-inputes{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+
     background-color: #fff;
 }
 
 .newslatter-inputes input{
+ width: 50%;
     border: none;
     outline: none;
     margin-right: 2rem;
-    padding: 1.75rem;
+    padding: 1.75rem 2.5rem;
+    text-align: left;
+    background-color: #fff;
 }
 .newslatter-inputes input::placeholder{
     color: #001d23;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 .newslatter-btn button{
     background-color: #086AD8;
@@ -1159,7 +1158,7 @@ margin-right: 1rem;
     font-size: 1.1rem;
     font-weight: 600;
     color: white;
-   
+  
     text-decoration: none;
     left: 54px;
 }
@@ -1176,7 +1175,7 @@ margin-right: 1rem;
 .back-logo {
     text-align: center;
     align-items: center;
-    margin-top: 30vh;
+    margin-top: 15vh;
 }
 .back-logo h1{
      font-size: 3rem;
@@ -1454,6 +1453,31 @@ a {
    
 
     /* End testmonial */
+
+    /* footeer */
+    /* nesw-latter */
+    .newlatter-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+    .newslatter-inputes{
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .newslatter-inputes input{
+        width: 60%; 
+          border: none;
+        outline: none;
+        margin-right: 2rem;
+        padding: 1.75rem 2.5rem;
+        text-align: left;
+    }
+    /* end nesw-latter */
+    /*End  footeer */
 }
 
 /* end large screen */
@@ -1657,10 +1681,16 @@ transition: 4s all;
         line-height: 3.75rem;
         width: 100%;
     }
+  
 
     /* end call action  */
 
+/* how we work */
 
+.how-we-works {
+    margin-top: 5rem;
+    height: 180vh;
+}
     .how-we-works-boxs-grid {
         grid-template-columns: repeat(3, 1fr);
         row-gap: 5rem;
@@ -1668,6 +1698,8 @@ transition: 4s all;
 
 
     }
+
+    /* end how we work */
 
     .number-box {
         margin-right: 1rem;
@@ -1713,6 +1745,27 @@ transition: 4s all;
 
 
     /* footer */
+
+    .newlatter-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+   
+    .newslatter-inputes{
+        background-color: #fff;
+    }
+    .newslatter-inputes input{
+        width: 60%;
+        border: none;
+        outline: none;
+        margin-right: 2rem;
+        padding: 1.75rem 2.5rem;
+        text-align: left;
+    }
+ 
     .footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1805,7 +1858,7 @@ transition: 4s all;
 row-gap: 5rem;
 gap: 2rem;
 
-      
+   
     }
 
     .number-box {
@@ -1896,6 +1949,53 @@ gap: 2rem;
 
 
     /* footer */
+
+    .newlatter-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+    .newslatter-icon a{
+        display: inline-block;
+        line-height: 2rem;
+       margin-right: 1rem;
+          
+           background: #ffffff;
+           color: #001D23;
+           width: 3rem;
+           height: 3rem;
+           text-align: center;
+           transition: background-color color 0.4s ease-in-out;
+       }
+
+    .newslatter-inputes input{
+        /* width: 100%; */
+        border: none;
+        outline: none;
+        margin-right: 2rem;
+        padding: 1.75rem 1rem;
+        text-align: left;
+        background-color: #fff;
+      
+    }
+    .newslatter-btn button{
+        width: 100%;
+        padding: 1.2rem 0.5rem;
+     
+      
+    }
+    .newslatter-inputes {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+  
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        /* background-color: #fff; */
+    }
     .contacts .contact-flex {
         display: grid;
         flex-direction: column;
@@ -2021,7 +2121,10 @@ gap: 2rem;
 @media screen and (max-width:568px) {
 
     /* how we work */
- 
+    .how-we-works {
+        margin-top: 5rem;
+        height: 10vh;
+    }
 
     .number-box {
         margin-right: 1rem;
@@ -2132,7 +2235,7 @@ gap: 2rem;
 
     /* call action */
     .call-action-section {
-        margin-top: 10rem;
+        margin-top: 50rem;
     }
 
     .call-action_text .texts h3 {
@@ -2149,6 +2252,12 @@ gap: 2rem;
     /* End call action */
 
     /* how we work */
+
+    .how-we-works {
+        margin-top: 5rem;
+        height: 100vh;
+    }
+
     .how-we-works-boxs-grid {
         grid-template-columns: 1fr ;
      
@@ -2223,11 +2332,24 @@ row-gap: 5rem;
     }
 
     /* End our team */
+
        /* footer */
+
+       .newslatter-inputes input{
+        width: 100%;
+        margin-inline: auto;
+       }
+       .newslatter-inputes{
+        display: flex;
+        flex-direction: column;
+        background: none;
+        row-gap: 2rem;
+       }
        .footer {
         display: grid;
         grid-template-columns: 1fr ;
        margin-left: 3rem;
+       margin-right: 1rem;
     
     }
     
