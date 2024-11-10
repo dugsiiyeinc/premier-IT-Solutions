@@ -81,7 +81,7 @@ body {
 }
 
 .disktop-menus ul li a:hover {
-  
+  background-color: #E9F4FF;
     color: #086AD8;
 }
 
@@ -98,6 +98,8 @@ body {
     padding: 1.2rem 1.8rem;
     margin-right: 1.25rem;
     color: white;
+    text-align: center;
+    align-items: center;
     transition: background-color 0.5s ease-in-out;
     cursor: pointer;
 }
@@ -137,8 +139,8 @@ body {
 .search-Icon {
     border: 2px solid rgb(26, 52, 57);
     font-weight: 400;
-    height: 56px;
-    padding: 1.2rem 1.4rem;
+    height: 67px;
+    padding: 1.3rem 1.5rem;
     border-radius: 2px;
     transition: background-color 0.5s;
     cursor: pointer;
@@ -427,6 +429,7 @@ display: none;
     align-items: center;
     gap: 2rem;
     justify-content: center;
+ 
 
 
 }
@@ -439,7 +442,7 @@ display: none;
     background-color: white;
     text-align: center;
     padding: 2rem;
-
+text-align: center;
     border-radius: 0.5rem;
     box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.4s ease-in-out;
@@ -1652,9 +1655,27 @@ transition: 4s all;
         margin-top: 1rem;
     }
 
-    .appointment-container .btn {
+    /* .appointment-container .btn {
         width: 100%;
         margin-inline: auto;
+    } */
+    .appointment-container .btn {
+        border-radius: 0px;
+        /* padding: 28px 40px; */
+        background: #004189; 
+        border: none;
+        color: #001D23;
+        /* padding-left: 55px; */
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        font-weight: 500;
+        cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+ height: 5rem;
+      padding-top: 0rem;
     }
 
     .Appointment {
@@ -1829,7 +1850,7 @@ gap: 2rem;
         display: flex;
         flex-direction: column 1fr ;
     }
-    button{
+   .btn-contact button{
       margin-left: 4rem;
       margin-top: 2rem;
     }
