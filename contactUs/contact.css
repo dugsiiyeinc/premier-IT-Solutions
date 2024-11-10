@@ -514,6 +514,8 @@ iframe{
     text-align: center;
     align-items: center;
     margin-top: 80px;
+    margin-bottom: 60px;
+    font-size: 26px;
 }
 
 .back-logo h1 span {
@@ -538,6 +540,12 @@ iframe{
     display: flex;
     justify-content: space-around;
 
+}
+.contact-flex button{
+   background-color: #086AD8;
+   border: none;
+   padding: 0px 60px;
+    
 }
 
 .border {
@@ -947,6 +955,13 @@ iframe{
         gap: 10px;
     
     }
+
+    .contact-flex button{
+        background-color: #086AD8;
+        border: none;
+        padding: 20px 60px;
+         
+     }
     
     .contacts .contact-flex button {
         align-items: center;
@@ -956,6 +971,85 @@ iframe{
 
 
     /*End  contact-info-section. */
+
+    
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.footer-service {
+    margin-bottom: 20px;
+}
+
+.footer-service h4,
+.More-Links h4,
+.News-Feeds h4 {
+    color: #001D23;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.footer-service h4 span,
+.More-Links h4 span,
+.News-Feeds h4 span {
+    color: #086AD8;
+}
+
+.both-service-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.right-service-lists ol li,
+.left-service-lists ol li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.img-and-icon {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.News-Feeds-flex {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.img-and-icon i {
+    color: #086AD8;
+}
+
+.img-and-icon p {
+    font-size: 14px;
+}
+
+.End-footer {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.End-footer p span {
+    color: #086AD8;
+}
+
+/* End footer section */
+
 
 
 
