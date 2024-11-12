@@ -267,6 +267,7 @@ label:hover {
 
 .mobile-menus {
     display: none;
+    
 }
 
 
@@ -283,7 +284,7 @@ label:hover {
     font-size: 1.4rem;
     line-height: 1.625rem;
     font-weight: 500;
-    font-family: "Roboto, sans-serif";
+    font-family: "Roboto, sans-serif";             
     color: white;
     text-decoration: none;
     padding: 38px 20px;
@@ -445,7 +446,7 @@ label:hover {
 
 
 
-/*  */
+/* box-2 */
 
 
 
@@ -474,7 +475,8 @@ label:hover {
 }
 
 
-/*  */
+/* box-3 */
+
 .box-3{
     background-color: #086AD8;
     height: 300px;
