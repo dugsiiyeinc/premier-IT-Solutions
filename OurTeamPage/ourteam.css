@@ -399,48 +399,52 @@ display: none;
     color: white;
     line-height: 3.75rem;
     font-weight: 600;
+    margin-top: 2rem;
 }
 
 .top-text-team p {
     padding-top: 1rem;
     color: white;
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
 }
 
 .card-team-grid {
 
     margin: -10rem 1rem;
-
+    z-index: 999;
 }
 
 .card-Team {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+   
 }
 
-.card-item .image{
+/* .card-item .image{
     object-fit: cover;
  
   
     height: 100vh;
-}
-.card-item img {
-    width: 100%;
-    object-fit: cover;
- 
-   height: 100vh;
-}
+} */
+
 
 .card-item {
     padding: 2rem;
-    width: min(200px);
-    width: calc(100% - 20px);
+    width:400px;
+    /* width: calc(25% - 20px); */
     margin-inline: auto;
     background-color: #fff;
     box-sizing: border-box;
+    text-align: center;
 
+}
+
+.card-item .image {
+    width: 100%;
+    object-fit: cover;
+    height: 59%;
 }
 
 .card-item h4 {
@@ -454,11 +458,11 @@ display: none;
 }
 
 .card-item h5 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 2rem;
     color: #086AD8;
-    padding-bottom: 1rem;
+    padding-bottom: 0.7rem;
 }
 
 .card-item p {
@@ -474,7 +478,7 @@ display: none;
     justify-content: center;
     gap: 2rem;
     background-color: #086AD8;
-    padding: 1rem 0rem;
+    padding: 0.2rem 0rem;
     margin: 0.5rem 0rem;
     text-align: left;
     /* margin-right: 7rem; */
@@ -507,8 +511,8 @@ display: none;
 .back-logo {
     text-align: center;
     align-items: center;
-    margin-top: 80px;
-    margin-top: 12rem;
+  
+    margin-top: 13rem;
   
 }
 
@@ -621,6 +625,8 @@ button:hover {
     background-color: #001D23;
 }
 .border {
+    width: 90%;
+    margin-inline: auto;
     border: 5px solid #086AD8;
     box-shadow: 0 2px 5px rgba(87, 73, 166, 0.1);
     margin-top: 40px;
@@ -705,23 +711,30 @@ button:hover {
 .End-footer {
     text-align: center;
     /* margin-bottom: 40px; */
-    margin-top: 6rem;
-    background-color: #086AD8;
-    padding: 2rem;
- 
-   
-
-    color: #fff;
+    margin-top: 4rem;
+    color: #001D23;
+    margin-bottom: 2rem;
 }
 
 .End-footer p span {
-    color: #001D23;
+    color: #086AD8;
 }
 
 /* End  footer-section. */
 /* end footer */
 
 /* resposibe  */
+
+/* laptop */
+@media (max-width:1240px){
+    .card-Team {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+
+    }
+}
+/* end laptop */
 /* lagre tablates */
 @media (max-width:991px) {
     .top-header {
@@ -913,9 +926,19 @@ button:hover {
 
     .card-Team {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
 
+    }
+    .card-item {
+        padding: 2rem;
+        width:350px;
+        /* width: calc(25% - 20px); */
+        margin-inline: auto;
+        background-color: #fff;
+        box-sizing: border-box;
+        text-align: center;
+    
     }
 
     .card-item h5 {
@@ -1172,6 +1195,21 @@ button:hover {
         gap: 2rem;
 
     }
+   .card-item img {
+    width: 100%;
+   }
+
+    .card-item {
+        padding: 2rem;
+        /* width:350px; */
+        /* width: calc(25% - 20px); */
+        width: 100%;
+        margin-inline: auto;
+        background-color: #fff;
+        box-sizing: border-box;
+        text-align: center;
+    
+    }
 
     .card-item h5 {
         font-size: 1rem;
@@ -1329,9 +1367,9 @@ footer {
 
     /* ourteam */
     .card-item {
-        padding: 0rem;
-        /* width: min(200px); */
-        width: calc(100% - 20px);
+     
+       
+       
         margin-inline: auto;
         background-color: #fff;
         box-sizing: border-box;
