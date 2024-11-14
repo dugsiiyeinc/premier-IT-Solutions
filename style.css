@@ -95,7 +95,7 @@ body {
     display: flex;
     gap: 10px;
     background-color: #086AD8;
-    padding: 1.2rem 1.8rem;
+    padding: 1rem 1.8rem;
     margin-right: 1.25rem;
     color: white;
     text-align: center;
@@ -2068,8 +2068,9 @@ gap: 2rem;
     .More-Links h4 span,
     .News-Feeds h4 span {
         color: #086AD8;
+       
     }
-    
+   
     .both-service-footer {
         display: grid;
         grid-template-columns: 1fr ;
