@@ -1269,6 +1269,8 @@ a {
     transition: 1ms;
 }
 .border {
+    width: 90%;
+    margin-inline: auto;
     border: 5px solid #086AD8;
     box-shadow: 0 2px 5px rgba(87, 73, 166, 0.1);
     margin-top: 40px;
@@ -1353,17 +1355,13 @@ a {
 .End-footer {
     text-align: center;
     /* margin-bottom: 40px; */
-    margin-top: 6rem;
-    background-color: #086AD8;
-    padding: 2rem;
- 
-   
-
-    color: #fff;
-}
+    margin-top: 4rem;
+    color: #001d23;
+    margin-bottom: 2rem;
+  } 
 
 .End-footer p span {
-    color: #001D23;
+    color: #086AD8;
 }
 
 /* End  footer-section. */
@@ -1387,7 +1385,14 @@ a {
     box-sizing: border-box;
 
 }
-    .why-chooseUsGrid {
+.End-footer {
+    text-align: center;
+    /* margin-bottom: 40px; */
+    margin-top: 4rem;
+    color: #001d23;
+    margin-bottom: 2rem;
+  }   
+  .why-chooseUsGrid {
         display: grid;
         grid-template-columns: 1fr;
         gap: 1rem;
@@ -1852,6 +1857,10 @@ transition: 4s all;
 
     /* End call action */
     /* how we work */
+    .how-we-works {
+        margin-top: 5rem;
+        height: 80vh;
+    }
     .how-we-works-boxs-grid {
         grid-template-columns: repeat(2, 1fr);
 
@@ -2047,7 +2056,7 @@ gap: 2rem;
     
     .footer {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
     
     }
     
@@ -2073,7 +2082,7 @@ gap: 2rem;
    
     .both-service-footer {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr 1fr ;
         gap: 20px;
     }
     
@@ -2110,7 +2119,7 @@ gap: 2rem;
     }
     
     .End-footer p span {
-        color: #001D23;
+        color: #086AD8;
     }
     
     /* End footer */
@@ -2170,7 +2179,7 @@ gap: 2rem;
     /* start banner */
     .Appointment {
 
-        min-height: 70vh;
+        min-height: 50vh;
     }
 
     .banner-text h2 {
@@ -2256,7 +2265,7 @@ gap: 2rem;
 
     .how-we-works {
         margin-top: 5rem;
-        height: 100vh;
+        height: 80vh;
     }
 
     .how-we-works-boxs-grid {
@@ -2367,9 +2376,13 @@ row-gap: 5rem;
     }
 
     /*end  call action */
+
+    /* how we works  */
+    
+    /* End how we works  */
     /* sttaf */
     .staffsErea {
-        margin-top: 60rem;
+        margin-top:65rem;
     }
 
     .staff-text h2 {
