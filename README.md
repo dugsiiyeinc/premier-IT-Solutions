@@ -23,7 +23,7 @@
 # Features
   Here are some key features  we contain our website 
   ### 1.  Responsive Design
-  - we use  the layout adapts to different screen sizes (desktop, tablet, mobile) using media queries and flexible grids.
+  - We use  the layout adapts to different screen sizes (desktop, tablet, mobile) using media queries and flexible grids.
   - Using CSS Flexbox or Grid to create fluid layouts that work well across devices.
 
 ### 2.  Navigation Bar with Hover Effects
@@ -70,11 +70,40 @@ First, you need to clone the GitHub repository to your local machine.
 Open your terminal (or Git Bash if you're on Windows), and run the following command:
 ```
 git clone https://github.com/dugsiiyeinc/premier-IT-Solutions.git
+
 ```
 # 2. Navigate to the Project Folder
 After cloning, navigate into the project directory:
-``cd repository-name
 ```
+
+   cd repository-name
+```
+
+# Contributing
+Here’s a step-by-step guide on how to contribute to a GitHub project:
+
+#### 1. Fork the Repository
+- To fork a repository, go to the project page and click the Fork button at the top right of the page.
+  
+This will create a copy of the repository under your own GitHub account.
+
+#### 2. Clone Your Fork
+- On your GitHub page, go to your forked repository.
+- Click on the Code button, copy the URL, and run this command in your terminal to clone it:
+
+` git clone https://github.com/dugsiiyeinc/premier-IT-Solutions.git `
+
+####  3. Create a New Branch
+` git checkout -b  New-feature-branch `
+
+#### 4. Commit Your Changes
+` git commit -m "Add your descriptive commit message"`
+
+#### 5. Push Your Changes to GitHub
+`git push -u origin  New-feature-branch `
+
+#### 6. Create a Pull Request
+
 
 
 
