@@ -1,5 +1,5 @@
 # premier It Solution
-
+*welcome* **Premier It Solutions** an innovative website offering adiverse range service designed to meet your digital needs  
 ## Table Of Contents
 - [ Description](#Description)
 - [ Features](#Features)
@@ -8,12 +8,12 @@
 - [ Demo Live](#TechnologiesUsed)
 - [Installation](#Installation)
 - [Contributing](#Contributing])
-- [Team](#Team])
+- [ Contributors Team](#Team])
 - [conclusion](#conclusion])
 ---
 
 # Description
- **Premier It Solutions**  is your best choice  all your it business sector. we  specialize in creating custom IT solutions to drive your business forward. Our team of experts designs and implements advanced technologies to simplify operations, secure data, and enhance your competitive edge. With a strong foundation in Solution Infrastructure Planning, Solutions Design, and Solutions Sales Management, we provide a holistic approach to meet your unique needs
+ **Premier It Solutions**  is your best choice  all your digital  business sector. we  specialize in creating custom IT solutions to drive your business forward. Our team of experts designs and implements advanced technologies to simplify operations, secure data, and enhance your competitive edge. With a strong foundation in Solution Infrastructure Planning, Solutions Design, and Solutions Sales Management, we provide a holistic approach to meet your unique needs
  #### Some Our Services 
  - ***Infrastructure Planning & Implementation**: From on-premises to cloud and hybrid models, we assess your current systems and plan for a resilient, scalable IT infrastructure. Our goal is to establish a foundation that grows with your business and adapts to changing demands.
  - **Custom Solution Design** : Your business is unique, and so are the challenges you face. We design IT solutions tailored to optimize workflows, integrate seamlessly with existing systems, and empower your team to achieve more.
@@ -39,7 +39,7 @@
  - These techniques can help make complex layouts, like  photo grids, easier to manage.
 ---
 # Pages
- we contain our website
+here are main pages contains our website
   - **Home page :** The landing page that provides an overview of our website and its features.
   - **About Us Page:** Information about our team and the mission of our project.
   -  **Contact Us Page:** A page where users can reach out to us for any inquiries or support.
@@ -103,6 +103,24 @@ This will create a copy of the repository under your own GitHub account.
 
 #### 6. Create a Pull Request
 ---
+
+# Contributors Team
+This project was developed by **Team 2 Of  Group B2   Mentorship Of Dugsiye**
+
+### Members
+1. Mohamed Salad Mohamed 
+2. Ayaan Mohamed Jaamac 
+3. Abuukar        
+---
+
+# conclusion
+
+#### Special Thanks
+
+We Thanks All Mentors Of Dugsiiye *specaily* **our teacher MC HAMUUDA**: For their invaluable guidance and support to increasing our Development knowledge  .
+
+    
+
 
 
 
