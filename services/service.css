@@ -217,6 +217,7 @@ label:hover {
     color: white;
     transition: background-color 0.3s ease-in-out;
     cursor: pointer;
+    align-items: center;
 }
 
 .getA-Quote .get span {
@@ -567,6 +568,10 @@ h1 {
     align-items: center;
     margin-top: 30px;
 }
+.pricing-header-2 h1{
+    margin-top: 10px;
+
+}
 
 .pricing-header-2 p span {
     color: #086AD8;
@@ -583,8 +588,18 @@ h1 {
 }
 
 .purchase-now {
-    background-color: #333;
+    background-color: #086AD8;
     border-radius: 10px;
+}
+
+.purchase-now button{
+    background-color: #001D23;
+    transition: bacground-color 0.5s ease-in;
+}
+
+.purchase-now button:hover{
+    background-color: #fff;
+    color: #001D23;
 }
 
 .purchase-now p {
