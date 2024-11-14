@@ -60,7 +60,9 @@ here are main pages contains our website
 You can view here [demo live](https://fonts.google.com/)
 
 ![demo image](screen%20demo%20project.png)
+
 ---
+
 
 # Installation
 To Installation this project follow these stapes:
@@ -69,7 +71,7 @@ First, you need to clone the GitHub repository to your local machine.
 
 Open your terminal (or Git Bash if you're on Windows), and run the following command:
 ```
-   clone https://github.com/dugsiiyeinc/premier-IT-Solutions.git
+  git clone https://github.com/dugsiiyeinc/premier-IT-Solutions.git
 ```
 ### 2. Navigate to the Project Folder
 After cloning, navigate into the project directory:
