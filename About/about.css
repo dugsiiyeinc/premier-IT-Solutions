@@ -62,10 +62,90 @@ body {
 
  /* section two about us */
 
- 
+ /* styles.css */
+
+
+.about2{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+}
+
+.image {
+  flex: 1 1 40%;
+  position: relative;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px;
+  
+}
+
+
+
+.content {
+  flex: 1 1 60%;
+}
+
+.content h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+
+
+.learn-more {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .about-section {
+      flex-direction: column;
+  }
+
+  .images {
+      margin-bottom: 20px;
+      max-width: 100%;
+  }
+
+  .content h2 {
+      font-size: 2rem;
+  }
+
+  .content p {
+      font-size: 0.9rem;
+  }
+}
 
 
 /* end section two about us */
+
 
 /* start testimoil.. section style */
 
@@ -185,6 +265,7 @@ body {
 .section__card:hover::before {
   width: 400%;
   background-color: #086AD8;
+  
 }
 
 .section__card:hover :is(h4, h5) {
