@@ -92,12 +92,16 @@ body {
 .content {
   flex: 1 1 60%;
 }
+.content span{
+  color: #007bff;
+}
 
 .content h2 {
   font-size: 2.5rem;
   color: #333;
   margin-bottom: 10px;
 }
+
 
 .content p {
   font-size: 1rem;
