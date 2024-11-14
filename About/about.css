@@ -410,6 +410,105 @@ label:hover {
 
 /* end section two about us */
 
+/* our team*/
+.ourTeam-container {
+  margin-top: 5rem;
+  height: 40rem;
+
+}
+
+.ourTeam-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.ourTeamTitle h4 {
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.ourTeamTitle h4 span {
+  padding-right: 0.5rem;
+  color: #086AD8;
+}
+
+.ourTeamTitle h2 {
+  font-size: 3.125rem;
+  font-weight: 500;
+  line-height: 3.75rem;
+  color: #001D23;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 3rem;
+}
+
+.outeam-images {
+  position: relative;
+
+}
+
+.outeam-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ourteam-Text {
+  position: absolute;
+  /* background-color: #086AD8; */
+  top: 80%;
+  right: 8%;
+  left: 8%;
+  bottom: 0;
+  text-align: center;
+  height: 40%;
+
+  background-color: #fff;
+  padding: 0.5rem 3rem;
+}
+
+.outeam-images img:hover {
+  transform: scale(1.01);
+}
+
+.ourteam-Text h3 {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.ourteam-Text p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #086AD8;
+  line-height: 1.625rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.ourTeam_icons {
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: space-around;
+  color: #086AD8;
+  transition: color 1s ease-in-out;
+  cursor: pointer;
+}
+
+.ourTeam_icons span:hover {
+  color: #001D23;
+}
+
+/* end our team*/
+
+
 
 /* start testimoil.. section style */
 
