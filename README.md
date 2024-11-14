@@ -69,15 +69,14 @@ First, you need to clone the GitHub repository to your local machine.
 
 Open your terminal (or Git Bash if you're on Windows), and run the following command:
 ```
-git clone https://github.com/dugsiiyeinc/premier-IT-Solutions.git
-
+   clone https://github.com/dugsiiyeinc/premier-IT-Solutions.git
 ```
-# 2. Navigate to the Project Folder
+### 2. Navigate to the Project Folder
 After cloning, navigate into the project directory:
 ```
-
    cd repository-name
 ```
+--- 
 
 # Contributing
 Here’s a step-by-step guide on how to contribute to a GitHub project:
@@ -103,7 +102,7 @@ This will create a copy of the repository under your own GitHub account.
 `git push -u origin  New-feature-branch `
 
 #### 6. Create a Pull Request
-
+---
 
 
 
