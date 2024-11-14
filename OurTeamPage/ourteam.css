@@ -977,6 +977,7 @@ button:hover {
     border-top-width: 0.666667px;
     transition: transform 3s ease-in-out;
     margin-inline: auto;
+    text-align: center;
   }
 
   .mobile-menu ul li a {
