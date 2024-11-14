@@ -1,15 +1,15 @@
-# premier It Solution
+# premier It Solution  
 *welcome* **Premier It Solutions** an innovative website offering adiverse range service designed to meet your digital needs  
 ## Table Of Contents
 - [ Description](#Description)
 - [ Features](#Features)
 - [ Pages](#Pages)
-- [ Technologies Used](#TechnologiesUsed)
-- [ Demo Live](#TechnologiesUsed)
+- [ Technologies Used](#Technologies-Used)
+- [ Demo Live](#Demo-Live)
 - [Installation](#Installation)
-- [Contributing](#Contributing])
-- [ Contributors Team](#Team])
-- [conclusion](#conclusion])
+- [Contributing](#Contributing)
+- [Contributors Team](#Contributors-Team) 
+- [conclusion](#conclusion)
 ---
 
 # Description
@@ -111,8 +111,8 @@ This project was developed by **Team 2 Of  Group B2   Mentorship Of Dugsiye**
 
 ### Members
 1. Mohamed Salad Mohamed 
-2. Ayaan Mohamed Jaamac 
-3. Abuukar        
+2. Ayan Mohamed Jamac 
+3. Abukar Hassan Omar       
 ---
 
 # conclusion
