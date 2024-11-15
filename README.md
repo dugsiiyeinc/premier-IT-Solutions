@@ -57,7 +57,7 @@ here are main pages contains our website
 
 # Demo Live
 
-the project You can view here [demo live](https://premier-it-solutions-three.vercel.app/)
+the project You can view here [demo live](https://premier-it-solutions-three.vercelapp/)
 
 ![demo image](screen%20demo%20project.png)
 
