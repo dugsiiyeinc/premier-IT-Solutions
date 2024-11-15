@@ -428,6 +428,7 @@ display: none;
     align-items: center;
     gap: 2rem;
     justify-content: center;
+    margin-top: 4rem;
  
 
 
@@ -435,7 +436,7 @@ display: none;
 
 .boxs {
     box-sizing: border-box;
-    margin-top: 4rem;
+    margin-top: 0.5rem;
     min-width: 200px;
     /* width: calc(25% - 20px); */
     background-color: white;
