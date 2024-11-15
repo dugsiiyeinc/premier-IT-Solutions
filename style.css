@@ -189,8 +189,7 @@ display: none;
     text-decoration: none;
     padding: 38px 20px;
     text-transform: capitalize;
-    transition: background-color 0.5s;
-
+  
 }
 
 /* end mobile menu */
@@ -1532,6 +1531,8 @@ a {
         flex-direction: column;
         
         z-index: 111;
+        transition: trnsform 2s;
+transition-delay: 2s;
     }
    
    
@@ -1564,7 +1565,8 @@ a {
         border-top-color: rgba(255, 255, 255, 0.5);
         border-top-style: solid;
         border-top-width: 0.666667px;
-        transition:  transform 3s ease-in-out;
+       
+        text-align: center;
 
     }
 
@@ -1592,8 +1594,8 @@ a {
 width: 100%;
 
  
-transition: 4s all;
 
+transition: 3s;
         transform: translateY(0%);
     }
 

@@ -66,10 +66,10 @@
                 <nav class="mobile-menu">
                     <ul>
                         <li> <a href="#">Home</a></li>
-                        <li> <a href="#">About</a></li>
-                        <li> <a href="#">Services</a></li>
-                        <li> <a href="#">Teams</a></li>
-                        <li> <a href="#">Contact</a></li>
+                        <li> <a href="../About/about.html">About</a></li>
+                        <li> <a href="../services/service.html">Services</a></li>
+                        <li> <a href="../OurTeamPage/ourteam.html">Teams</a></li>
+                        <li> <a href="../contactUs/contact.html">Contact</a></li>
                     </ul>
                 </nav>
                 
@@ -768,6 +768,7 @@
         const humber = document.querySelector(".humber")
         const mobilemenu = document.querySelector(".mobile-menus")
         const icons = document.querySelectorAll("i")
+        console.log('all icons', icons)
 
         humber.addEventListener("click", function (event) {
             const isvisible = mobilemenu.getAttribute('data-visible');

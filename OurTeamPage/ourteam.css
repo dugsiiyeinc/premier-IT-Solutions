@@ -265,7 +265,7 @@ label:hover {
   text-decoration: none;
   padding: 38px 20px;
   text-transform: capitalize;
-  transition: background-color 0.5s;
+
 }
 
 /* End second header */
@@ -714,6 +714,7 @@ button:hover {
     flex-direction: column;
 
     z-index: 111;
+  
   }
 
   .mobile-menu ul {
@@ -729,9 +730,11 @@ button:hover {
     line-height: 26px;
     top: -26px;
     position: absolute;
+  
   }
 
   .mobile-menu ul li {
+    
     width: 100%;
     /* border: 1px solid white; */
     padding-bottom: 12px;
@@ -744,6 +747,7 @@ button:hover {
     border-top-width: 0.666667px;
     transition: transform 3s ease-in-out;
     margin-inline: auto;
+    text-align: center;
   }
 
   .mobile-menu ul li a {
@@ -767,7 +771,7 @@ button:hover {
 
     width: 100%;
 
-    transition: 4s all;
+    transition: transform 0.5s ease-out;
 
     transform: translateY(0%);
   }
@@ -775,15 +779,17 @@ button:hover {
   .mobile-menus[data-visible="false"] {
     transform: translateY(100%);
     display: none;
+    transition: transform 0.5s ease-in;
   }
 
-  .humber i[data-visible="false"] {
+  .humber i[data-visible ="true"] {
+    display: block;
+  }
+
+  .humber i[data-visible ="false"] {
     display: none;
   }
 
-  .humber i[data-visible="true"] {
-    display: block;
-  }
   /*end  mobile menus */
 
   /* desktop-menus */

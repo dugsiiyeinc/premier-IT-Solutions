@@ -77,8 +77,8 @@
               <!-- <P class="BOTTOM-TEXT-LOGO">IT SOLUTIONS</P> -->
           </div>
           <div class="humber">
-              <i class="fa-solid fa-bars" data-visible="true"></i>
-              <i class="fa-solid fa-xmark" data-visible="false"></i>
+              <i class="fa-solid  fa-bars" data-visible = "true"></i>
+              <i class="fa-solid  fa-xmark"  data-visible = "false"></i>
               
           </div>
       </div>
@@ -119,14 +119,14 @@
 
       <!-- statr mobile-menu -->
 
-      <div class="mobile-menus "  data-visible= "false">
+      <div class="mobile-menus "  data-visible ="false">
           <nav class="mobile-menu">
               <ul>
-                  <li> <a href="#">Home</a></li>
-                  <li> <a href="#">About</a></li>
-                  <li> <a href="#">Services</a></li>
-                  <li> <a href="#">Teams</a></li>
-                  <li> <a href="#">Contact</a></li>
+                  <li> <a href="../HomePage/home.html">Home</a></li>
+                  <li> <a href="../About/about.html">About</a></li>
+                  <li> <a href="../services/service.html">Services</a></li>
+                  <li> <a href="../OurTeamPage/ourteam.html">Teams</a></li>
+                  <li> <a href="../contactUs/contact.html">Contact</a></li>
               </ul>
           </nav>
           
@@ -452,22 +452,30 @@
       const humber = document.querySelector(".humber")
       const mobilemenu = document.querySelector(".mobile-menus")
       const icons = document.querySelectorAll("i")
+   
 
       humber.addEventListener("click", function (event) {
           const isvisible = mobilemenu.getAttribute('data-visible');
+      
 
           if (isvisible == "true") {
               // qarin
               mobilemenu.setAttribute('data-visible', "false")
-              icons[0].setAttribute('data-visible', "true")
-              icons[1].setAttribute('data-visible', "false")
+              icons[3].setAttribute('data-visible', "true")
+              icons[4].setAttribute('data-visible', "false")
+            
           }
           else {
               mobilemenu.setAttribute('data-visible', "true")
-              icons[0].setAttribute('data-visible', "false")
-              icons[1].setAttribute('data-visible', "true")
+              icons[3].setAttribute('data-visible', "false")
+              icons[4].setAttribute('data-visible', "true")
+           
+            
           }
       })
+
+      
+      
   </script>
   <!-- End javascript -->
 </body>
