@@ -35,12 +35,19 @@ img {
 header {
     height: 48px;
     width: 100%;
+    
 
 }
 
 .top-header {
     display: flex;
     justify-content: space-between;
+    padding: 0rem 1rem;
+    border-bottom: 1px solid #a8cbf3;
+    padding-top: 1rem;
+    padding-bottom: 10px;
+    
+   
 }
 
 .right-side {
@@ -133,6 +140,7 @@ label:hover {
 .header {
     height: 6rem;
     position: relative;
+    margin-top: 20px;
 
 }
 
@@ -702,7 +710,8 @@ iframe{
         align-items: center;
         padding: 10px 0;
         text-align: center;
-        border-bottom: 1px solid #001D23;
+        border-bottom: 1px solid #a1c8f4;
+        padding: 1rem 1rem;
 
     }
 
