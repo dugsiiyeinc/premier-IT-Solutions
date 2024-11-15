@@ -388,7 +388,7 @@ label:hover {
 
 .card-item {
   padding: 2rem;
-  width: 400px;
+  width: 380px;
   /* width: calc(25% - 20px); */
   margin-inline: auto;
   background-color: #fff;
