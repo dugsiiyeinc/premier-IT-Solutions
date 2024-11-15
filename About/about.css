@@ -281,10 +281,12 @@ label:hover {
 
 .about-section {
   width: 100%;
-  height: 350px;
-  background-image: url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFib3V0JTIwdXMlMjBjb21wdXRlciUyMCUyMGltYWdlfGVufDB8fDB8fHww'); 
+  height: 60vh;
+  background-image: url('https://media.istockphoto.com/id/1129885403/photo/group-of-coworker-work-together-office-business-casual-making-conversation-with-partner.jpg?s=612x612&w=0&k=20&c=VgRS7GZcmfwjNXL8zN1JbshNJ_w_kSxElJ5rIVL6Ci8='); 
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+
   position: relative;
 }
 
@@ -302,11 +304,15 @@ label:hover {
 
 .about-section h1 {
   font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family:" Roboto, sans-serif";
   margin-bottom: 10px;
 }
 
 .breadcrumb {
   font-size: 0.9em;
+  font-family:" Roboto, sans-serif";
 }
 
 .breadcrumb a {
@@ -353,13 +359,26 @@ label:hover {
 .content {
   flex: 1 1 60%;
 }
+.content h3{
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1rem 0rem;
+  margin-top: 2rem;
+}
+
 .content span{
   color: #007bff;
+  padding-right: 0.5rem;
+ 
 }
 
 .content h2 {
   font-size: 2.5rem;
-  color: #333;
+  font-family:" Roboto, sans-serif";
+  text-transform: uppercase;
+  color: #001d23;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
@@ -395,7 +414,7 @@ label:hover {
   text-align: center;
   align-items: center;
 
-  margin-top: 13rem;
+  margin-top: 5rem;
 }
 
 .back-logo h1 {
@@ -629,8 +648,19 @@ button:hover {
 .section__container h2 {
   font-size: 16px;
   font-weight: 400;
-  color: rgb(0, 29, 35);
+color: #001d23;
   line-height:28px;
+  font-family:" Roboto, sans-serif";
+}
+.section__container h3{
+  font-family:" Roboto, sans-serif";
+  color: #001d23;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.section__container h3 span{
+  color: #007bff;
+  padding-right: 0.7rem;
 }
 
 .section__container h1 {
@@ -638,7 +668,9 @@ button:hover {
   margin-bottom: 2rem;
   font-size: 2.5rem;
   font-weight: 600;
-  color: var(--text-dark);
+  font-family:" Roboto, sans-serif";
+ color: #000;
+ padding: 1rem;
 }
 
 .section__container h1::after {
@@ -720,14 +752,17 @@ button:hover {
 
 .section__card h5 {
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 500;
+  font-family:" Roboto, sans-serif";
   color: var(--primary-color);
   transition: 0.3s;
+
 }
 
 .section__card h6 {
   font-size: 1rem;
   font-weight: 400;
+  font-family:" Roboto, sans-serif";
   color: var(--text-light);
   transition: 0.3s;
 }
