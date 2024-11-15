@@ -287,7 +287,7 @@ display: none;
     left: 0;
     right: 0;
     padding: 6rem 2rem;
-    min-height: 40rem;
+    min-height: 20rem;
     background-color: #086AD8;
     top: 100%;
     box-sizing: border-box;
@@ -383,8 +383,8 @@ display: none;
     background: #F8F8F8;
    
     box-sizing: border-box;
-    z-index: -1;
-    margin-top: 60vh;
+  
+    margin-top: 40vh;
 }
 
 .serviceText-container {
@@ -1698,7 +1698,7 @@ transition: 3s;
 
 .how-we-works {
     margin-top: 5rem;
-    height: 90vh;
+    height: 80vh;
 }
     .how-we-works-boxs-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -1862,7 +1862,7 @@ transition: 3s;
     /* End call action */
     /* how we work */
     .how-we-works {
-        margin-top: 5rem;
+        margin-top: 7rem;
         height: 85vh;
     }
     .how-we-works-boxs-grid {
@@ -2275,24 +2275,13 @@ gap: 2rem;
     .how-we-works-boxs-grid {
         grid-template-columns: 1fr ;
      
-
-
+width: 50%;
+margin: auto;
 row-gap: 5rem;
 
   
     }
 
-    .card-desgn {
-/* margin-left: 1rem; */
-        padding: 3rem 3rem;
-        margin-top: 1rem;
-        box-sizing: border-box;
-        width: 390px;
-        width: 98%;
-        margin: auto;
-        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
-        transition: background-color 0.5s ease-in-out;
-    }
     /*end  how we work */
 
     /* sttaf */
