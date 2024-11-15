@@ -517,6 +517,7 @@ label:hover {
   margin: auto;
   padding: 2rem 1rem;
   text-align: center;
+  margin-top: 35rem;
 }
 
 .section__container h2 {
@@ -818,6 +819,7 @@ label:hover {
   .breadcrumb {
       font-size: 0.8em;
   }
+
 }
 
 
@@ -968,6 +970,17 @@ label:hover {
     grid-template-columns: repeat(2, 1fr);
 
   }
+  .ourTeam-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5rem;
+
+}
+.ourTeam-container {
+    margin-top: 5rem;
+    height: 90rem;
+
+}
 
 }
 
@@ -991,10 +1004,12 @@ label:hover {
       font-size: 0.9rem;
   }
 
+
 @media (max-width: 768px) {
   .section__grid {
     grid-template-columns: 1fr;
   }
+}
 }
 
 @media (max-width: 576px) {
@@ -1026,4 +1041,31 @@ label:hover {
     font-size: 0.9rem;
   }
 }
+.ourTeam-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 5rem;
+
+}
+.ourTeam-container {
+  margin-top: 5rem;
+  height: 40rem;
+
+}
+
+@media (max-width: 481px) {
+  .section__grid {
+    grid-template-columns: 1fr;
+  }
+  .ourTeam-items {
+    display: grid;
+    grid-template-columns: 1fr ;
+    row-gap: 5rem;
+  
+  }
+  .ourTeam-container {
+    margin-top: 5rem;
+    height: 135rem;
+  
+  }
 }
