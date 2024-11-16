@@ -2275,11 +2275,21 @@ gap: 2rem;
     .how-we-works-boxs-grid {
         grid-template-columns: 1fr ;
      
-width: 50%;
-margin: auto;
+
 row-gap: 5rem;
 
   
+    }
+    .card-desgn {
+
+        padding: 3rem 1rem;
+        margin-top: 1rem;
+        box-sizing: border-box;
+        width: 380px;
+        width: 95%;
+        margin: auto;
+        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.5s ease-in-out;
     }
 
     /*end  how we work */
