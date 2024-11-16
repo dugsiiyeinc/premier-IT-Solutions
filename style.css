@@ -1376,10 +1376,20 @@ a {
         /* width: calc(33.33% - 20px); */
 
     }
-
+  /* End service */
 
     /* why-schooseUs */
-   /* End service */
+
+    .why-chooseUs img {
+        width: 95%;
+        margin-inline: auto;
+        margin-left: 2.5%;
+        height: 100%;
+        object-fit: contain;
+    
+   
+    
+    }
 .why-chooseUs-container {
     height: 60rem;
     margin-top: 4rem;
