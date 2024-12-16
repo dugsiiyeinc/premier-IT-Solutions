@@ -59,7 +59,7 @@ here are main pages contains our website
 
  You can view here [demo live](https://premier-it-solutions-three.vercel.app/)
 
-![demo image](screen%20demo%20project.png)
+![demo image](bandhig%20demo.png)
 
 ---
 

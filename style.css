@@ -199,10 +199,10 @@ display: none;
 /* statr banner */
 
 .container-banner {
-    background: linear-gradient(rgba(1, 44, 58, 0.927), rgba(1, 53, 61, 0.591)), url('https://wphix.com/template/techbuzz-prv/techbuzz/assets/images/banner/banner-slide-1.jpeg');
+    background: linear-gradient(rgba(1, 44, 58, 0.927), rgba(1, 53, 61, 0.591)), url('https://media.istockphoto.com/id/1185842857/photo/young-business-people-in-office.jpg?s=612x612&w=0&k=20&c=WF5l2mIuUAUUiP7wvJdqEN-xk1b9LIey-lqEDNAbeB4=');
 
     height: 50rem;
-    background-position: bottom;
+    background-position: top;
     background-size: cover;
     position: absolute;
     top: 17%;
