@@ -355,6 +355,7 @@ display: none;
     margin-top: 100px;
     display: flex;
     gap: 50px;
+    justify-content: space-between;
 }
 
 .pragraphs {
