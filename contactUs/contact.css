@@ -312,7 +312,7 @@ label:hover {
 
 .img-bacground {
     height: 355.188px;
-    background: linear-gradient(rgba(27, 28, 28, 0.5), rgba(20, 19, 19, 0.5)), url("https://wphix.com/template/techbuzz-prv/techbuzz/assets/images/bg/breadcrumb-bg-1.jpeg") center /cover no-repeat;
+    background: linear-gradient(rgba(27, 28, 28, 0.5), rgba(20, 19, 19, 0.5)), url("https://media.istockphoto.com/id/1194430816/photo/two-professional-it-programers-discussing-blockchain-data-network-architecture-design-and.jpg?s=2048x2048&w=is&k=20&c=PwpH745z-z7mz8rB-h4pbxGwY2VV7FAx4l5MWVv2OJc=") center /cover no-repeat;
     justify-content: center;
     align-items: center;
 }
